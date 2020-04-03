@@ -1,0 +1,22 @@
+{
+  "name": "@google.org/service-management-portal",
+  "description": "Google.org Service Management Portal",
+  "version": "1.0.1",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "if [ \"$REACT_APP_API_BACKEND\" = \"drupal\" ]; then npm run build:drupal; else npm run build:standalone; fi",
+    "build:drupal": "npm run build:calculator",
+    "build:standalone": "npm run build:manager && npm run build:calculator",
+    "build:manager": "npm run build --prefix client/service-manager && cpx 'client/service-manager/build/**/*.*' api/public/manager",
+    "build:calculator": "npm run build --prefix client/service-calculator && cpx 'client/service-calculator/build/**/*.*' api/public && cpx 'client/service-calculator/build/**/*.*' drupal/web/sites/calculator",
+    "postinstall": "npm install --prefix client/service-calculator && if [ \"$REACT_APP_API_BACKEND\" != \"drupal\" ]; then npm install --prefix client/service-manager; fi",
+    "test": "npm run test --prefix client/service-manager",
+    "lint": "npm run lint --prefix client/service-manager",
+    "lint:fix": "npm run lint:fix --prefix client/service-manager",
+    "update-mocks": "rm -rf api/var/cache && composer test -d api && composer test tests/ResetDatabase.php -d api && api/bin/console server:start && npm run update-mocks --prefix client/service-manager",
+    "check-mocks": "composer test tests/ResetDatabase.php -d api && npm run check-mocks --prefix client/service-manager"
+  },
+  "dependencies": {
+    "cpx": "^1.5.0"
+  }
+}

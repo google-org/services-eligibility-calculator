@@ -1,0 +1,91 @@
+{
+  "name": "drupal/recommended-project",
+  "description": "Project template for Drupal 8 projects with a relocated document root",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/drupal",
+  "support": {
+    "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+    "chat": "https://www.drupal.org/node/314178"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.2",
+    "drupal/config_profile": "^1.0",
+    "drupal/core-composer-scaffold": "^8.8",
+    "drupal/core-recommended": "^8.8",
+    "drupal/field_group": "^3.0",
+    "drupal/ldap": "^3.0@beta",
+    "drupal/migrate_plus": "^5.0",
+    "drupal/migrate_tools": "^4.5",
+    "drupal/paragraphs": "^1.11",
+    "drush/drush": "^10.1",
+    "symfony/ldap": "^5.0",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "require-dev": {
+  },
+  "conflict": {
+    "drupal/drupal": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "drupal-scaffold": {
+      "locations": {
+        "web-root": "web/"
+      },
+      "file-mapping": {
+        "[web-root]/sites/default/default.settings.php": {
+          "append": "assets/append_default.settings.php"
+        }
+      }
+    },
+    "installer-paths": {
+      "web/core": [
+        "type:drupal-core"
+      ],
+      "web/libraries/{$name}": [
+        "type:drupal-library"
+      ],
+      "web/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "web/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "web/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "drush/Commands/contrib/{$name}": [
+        "type:drupal-drush"
+      ],
+      "web/modules/custom/{$name}": [
+        "type:drupal-custom-module"
+      ],
+      "web/themes/custom/{$name}": [
+        "type:drupal-custom-theme"
+      ]
+    }
+  },
+  "autoload": {
+    "files": ["load.environment.php"]
+  },
+  "scripts": {
+    "test": "echo 'TBD: Add Drupal tests!'",
+    "post-install-cmd": [
+      "/bin/bash -c '[[ ! -z \"$DYNO\" ]] || exit 0 && (unset DATABASE_URL && rm -rf web/sites/default/files web/sites/example.com/files && vendor/bin/drush site:install --db-url=sqlite://sites/example.com/files/.ht.sqlite --account-name=admin --account-pass=admin --no-interaction -v cob_standard) && vendor/bin/drush pm:uninstall services_manager && vendor/bin/drush pm:enable services_manager && vendor/bin/drush cache:rebuild && ([[ ! -z \"$STANDALONE_DATABASE_URL\" ]] || exit 0 && vendor/bin/drush migrate:import --all --update -y && vendor/bin/drush migrate:import --all --sync -y)'"
+    ],
+    "post-drupal-scaffold-cmd": [
+      "cd web && patch -p0 <../patches/htaccess-calculator.patch"
+    ]
+  }
+}

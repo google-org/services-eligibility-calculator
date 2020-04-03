@@ -1,0 +1,35 @@
+--- .htaccess.orig	2020-01-31 10:54:06.141477932 -0800
++++ .htaccess	2020-01-31 10:54:31.956477932 -0800
+@@ -69,6 +69,16 @@
+ <IfModule mod_rewrite.c>
+   RewriteEngine on
+ 
++  # Determine the RewriteBase automatically and set it as environment variable.
++  # If you are using Apache aliases to do mass virtual hosting or installed the
++  # project in a subdirectory, the base path will be prepended to allow proper
++  # resolution of the index.php file and to redirect to the correct URI. It will
++  # work in environments without path prefix as well, providing a safe, one-size
++  # fits all solution. But as you do not need it in this case, you can comment
++  # the following 2 lines to eliminate the overhead.
++  RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
++  RewriteRule ^(.*) - [E=BASE:%1]
++
+   # Set "protossl" to "s" if we were accessed via https://.  This is used later
+   # if you enable "www." stripping or enforcement, in order to ensure that
+   # you don't bounce between http and https.
+@@ -131,6 +141,15 @@
+   # Rewrite install.php during installation to see if mod_rewrite is working
+   RewriteRule ^core/install.php core/install.php?rewrite=ok [QSA,L]
+ 
++  # Rewrite all service calculator react queries to the react client controller.
++  RewriteRule ^calculator/index\.html$ - [L]
++  RewriteCond %{REQUEST_FILENAME} !-f
++  RewriteCond %{REQUEST_FILENAME} !-d
++  RewriteCond %{REQUEST_FILENAME} !-l
++  RewriteRule ^(calculator/static/.*) %{ENV:BASE}/sites/$1 [L]
++  RewriteRule ^(calculator/[^/]+)$ %{ENV:BASE}/sites/$1 [L]
++  RewriteRule ^calculator/? %{ENV:BASE}/sites/calculator/index.html [L]
++
+   # Pass all requests not referring directly to files in the filesystem to
+   # index.php.
+   RewriteCond %{REQUEST_FILENAME} !-f

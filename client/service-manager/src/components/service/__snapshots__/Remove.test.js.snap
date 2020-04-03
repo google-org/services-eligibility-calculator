@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders remove a service modal 1`] = `
+<div
+  aria-modal="true"
+  class="fade action-modal modal show"
+  role="dialog"
+  style="display: block;"
+  tabindex="-1"
+>
+  <div
+    class="modal-dialog"
+    role="document"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="header modal-header"
+      >
+        <h2>
+          Archive undefined?
+        </h2>
+      </div>
+      <div
+        class="modal-body"
+      >
+        <div
+          class="body"
+        >
+          If you archive this service, residents will not see it in the Eligibility Calculator
+        </div>
+        <div
+          class="float-right"
+        >
+          <button
+            class="btn btn-blue-text"
+            type="button"
+          >
+            No, cancel
+          </button>
+          <button
+            class="btn btn-primary"
+          >
+            Yes, archive
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

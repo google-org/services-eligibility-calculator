@@ -1,0 +1,127 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.eligibility_profile.field_agemax
+    - field.field.paragraph.eligibility_profile.field_agemin
+    - field.field.paragraph.eligibility_profile.field_citizenrequired
+    - field.field.paragraph.eligibility_profile.field_fees
+    - field.field.paragraph.eligibility_profile.field_incomemaxima
+    - field.field.paragraph.eligibility_profile.field_maximum_income_selector
+    - field.field.paragraph.eligibility_profile.field_other
+    - field.field.paragraph.eligibility_profile.field_percentami
+    - field.field.paragraph.eligibility_profile.field_percentfpl
+    - field.field.paragraph.eligibility_profile.field_residentrequired
+    - paragraphs.paragraphs_type.eligibility_profile
+  module:
+    - options
+    - text
+id: paragraph.eligibility_profile.default
+targetEntityType: paragraph
+bundle: eligibility_profile
+mode: default
+content:
+  field_agemax:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_agemin:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_citizenrequired:
+    weight: 7
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_fees:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_incomemaxima:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_maximum_income_selector:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_other:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_percentami:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_percentfpl:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_residentrequired:
+    weight: 6
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+hidden: {  }

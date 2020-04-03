@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list departments view 1`] = `
+<div>
+  <div
+    class="service-card card"
+    tabindex="-1"
+  >
+    <div
+      class="card-header"
+    >
+      <div
+        class="d-flex justify-content-between"
+      >
+        <div>
+          Departments
+        </div>
+        <div>
+          <button
+            class="btn btn-primary"
+          >
+            Add department
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-body"
+    >
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            City Attorney
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              City Attorney
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            City Clerk's Office
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              City Clerk's Office
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            City Council
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              City Council
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            City Manager's Office
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              City Manager's Office
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Climate Initiatives
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Climate Initiatives
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Communication
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Communication
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Community Vitality
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Community Vitality
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Energy Strategy
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Energy Strategy
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Finance
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Finance
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Fire
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Fire
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Housing and Human Services
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Housing and Human Services
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Human Resources
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Human Resources
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Innovation and Technology
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Innovation and Technology
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Library and Arts
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Library and Arts
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Municipal Court
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Municipal Court
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            OSMP
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              OSMP
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Other
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Other
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Parks and Recreation
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Parks and Recreation
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Planning
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Planning
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Police
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Police
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <span>
+            Public Works
+          </span>
+          <span
+            class="ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Public Works
+            </i>
+            )
+          </span>
+        </div>
+         
+        <div>
+          <button
+            class="btn btn-blue-text pull-right"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

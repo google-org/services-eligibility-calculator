@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders update a department modal 1`] = `
+<div
+  aria-modal="true"
+  class="fade modal show"
+  role="dialog"
+  style="display: block;"
+  tabindex="-1"
+>
+  <div
+    class="modal-dialog modal-xl"
+    role="document"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="modal-body"
+      >
+        <div
+          class="container header"
+        >
+          <h1>
+            Edit: 
+            City Attorney
+          </h1>
+        </div>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              class="form-control-label"
+              for="department_name-en"
+            >
+              name (English)
+            </label>
+            <input
+              class="form-control"
+              id="department_name-en"
+              name="name-en"
+              placeholder="The department name in English."
+              required=""
+              value="City Attorney"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="form-control-label"
+              for="department_name-es"
+            >
+              name (Spanish)
+            </label>
+            <input
+              class="form-control"
+              id="department_name-es"
+              name="name-es"
+              placeholder="The department name in Spanish."
+              required=""
+              value="City Attorney"
+            />
+          </div>
+          <hr />
+          <div
+            class="float-right"
+          >
+            <button
+              class="btn btn-blue-text"
+            >
+              Cancel
+            </button>
+            <button
+              class="btn btn-blue-text"
+              type="submit"
+            >
+              Save
+            </button>
+          </div>
+        </form>
+        <div
+          class="float-left"
+        >
+          <button
+            class="btn btn-blue-text"
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

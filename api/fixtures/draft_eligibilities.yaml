@@ -1,0 +1,41 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\ServiceDraftEligibility:
+  service_draft_eligibility1:
+    draftService: "@service_draft_1"
+    profileIndex: "0"
+    ageMin: "50%? <numberBetween(0,60)>"
+    ageMax: "50%? <numberBetween(60,99)>"
+    percentFPL: "75%? <numberBetween(0,150)>"
+    fees: "50%? <sentence(3)>"
+    residentRequired: "<boolean()>"
+    citizenRequired: "<boolean()>"
+    other: "50%? <sentence(5)>"
+  service_draft_eligibility2:
+    draftService: "@service_draft_2"
+    profileIndex: "0"
+    ageMin: "18"
+    ageMax: "59"
+    incomeMaxima: "[50000,60000,70000,80000,90000,100000,100000,100000]"
+    residentRequired: true
+    citizenRequired: true
+    other: "Living with a disability"
+  service_draft_eligibility3:
+    draftService: "@service_draft_2"
+    profileIndex: "1"
+    ageMax: "12"
+    percentFPL: "150"
+    residentRequired: false
+    citizenRequired: false

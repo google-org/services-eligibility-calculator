@@ -1,0 +1,110 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * Primary module hooks for Services Manager module.
+ *
+ * In Drupal 8, only procedural code for e.g. hooks and theme functions remains
+ * in .module and .profile files.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function services_manager_theme($existing, $type, $theme, $path) {
+  return [
+    // To override a template in a module, it appears that the override hook
+    // must have a different name than the base template hook, otherwise Drupal
+    // always chooses the base template file.
+    //
+    // This alternative hook naming further implies the need for a custom
+    // hook_theme_suggestions method (below) to tell Drupal the alternative
+    // file name(s) to look for.
+    'filter_guidelines__service' => [
+      'template' => 'filter-guidelines--service',
+      'base hook' => 'filter_guidelines',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK().
+ * @inheritdoc
+ */
+function services_manager_theme_suggestions_filter_guidelines(array $variables) {
+  $suggestions = [];
+  $suggestions = ['filter_guidelines__service'];
+  return $suggestions;
+}
+
+/**
+ * Implements hook_field_widget_WIDGET_TYPE_form_alter().
+ */
+function services_manager_field_widget_entity_reference_paragraphs_form_alter(&$element, FormStateInterface $form_state, $context) {
+  $paragraph_field_name = $context['items']->getFieldDefinition()->getName();
+  $widget_state = \Drupal\Core\Field\WidgetBase::getWidgetState($element['#field_parents'], $paragraph_field_name, $form_state);
+  $paragraph_instance = $widget_state['paragraphs'][$element['#delta']]['entity'];
+  $paragraph_type = $paragraph_instance->bundle();
+  if ($paragraph_type == 'eligibility_profile') {
+    $selector = sprintf(':input[name="%s[%d][subform][%s]"]', $paragraph_field_name, $element['#delta'], 'field_maximum_income_selector');
+    // Dependent fields
+    $element['subform']['field_percentami']['#states'] = [
+      'visible' => [
+        $selector => ['value' => 'ami'],
+      ],
+    ];
+    $element['subform']['field_percentfpl']['#states'] = [
+      'visible' => [
+        $selector => ['value' => 'fpl'],
+      ],
+    ];
+    $element['subform']['field_incomemaxima']['#states'] = [
+      'visible' => [
+        $selector => ['value' => 'custom'],
+      ],
+    ];
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function services_manager_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'node_service_form' || $form_id == 'node_service_edit_form') {
+      $form['#validate'][] = 'validate_form_service';
+  }
+}
+
+function validate_form_service(&$form, FormStateInterface $form_state) {
+  foreach($form_state->getValue('field_eligibilityprofiles') as $index => $value) {
+    // Don't process the 'add_more' item (or whatever else there might be
+    // that's not actually an eligibility profile).
+    if (!is_numeric($index)) {
+      continue;
+    }
+    // Clear any conditional income values that don't match the selected income criteria.
+    switch ($value['subform']['field_maximum_income_selector'][0]['value']) {
+      case 'ami':
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_incomemaxima'], []);
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_percentfpl'], []);
+        break;
+      case 'fpl':
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_incomemaxima'], []);
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_percentami'], []);
+        break;
+      case 'custom':
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_percentami'], []);
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_percentfpl'], []);
+        break;
+      default:
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_incomemaxima'], []);
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_percentami'], []);
+        $form_state->setValue(['field_eligibilityprofiles', $index, 'subform', 'field_percentfpl'], []);
+        break;
+    }
+  }
+}

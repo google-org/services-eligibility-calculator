@@ -1,0 +1,36 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\ServiceHistory:
+  service_history1:
+    service: "@service1"
+    revision (unique): "2"
+    name: "Senior Center Fitness Discounts"
+    description: "<sentence(10)>"
+    details: "<text(200)>"
+    alwaysAcceptApplications: "<boolean()>"
+    department: "@department<numberBetween(1,20)>"
+    applicationWindowStart: "<dateTimeBetween('2020-01-01', '2020-05-31', 'UTC')>"
+    applicationWindowEnd: "<dateTimeBetween('2020-06-01', '2020-12-31', 'UTC')>"
+    interests: "[@interest*]"
+    applicationAddress: "<streetAddress()>, <city()>, <stateAbbr()> <postcode()>"
+    applicationHours: "<sentence(10)>"
+    applicationPhone: "<phoneNumber()>"
+    contactEmail: "<email()>"
+    applicationOnline: "<url()>"
+    applicationWebAddresses: "[<url()>]"
+    applicationDocuments: "<text(100)>"
+    lastModifiedBy: "user"
+    lastModifiedByDisplayName: "<name()>"
+    lastModifiedDateTime: "<(new DateTime('2019-10-12', new DateTimeZone('UTC')))>"

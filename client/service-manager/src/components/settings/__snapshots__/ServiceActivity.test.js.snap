@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders service activity settings view 1`] = `
+<div>
+  <nav
+    class="service-header navbar navbar-expand navbar-light sticky-top"
+  >
+    <div
+      class="w-100"
+    >
+      <h1
+        class="float-left"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root material-icons arrow-back"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            arrow_back
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        Settings
+      </h1>
+    </div>
+  </nav>
+  <div
+    class="settings-tabs d-flex"
+  >
+    <span
+      class="tab col-2"
+    >
+      <a
+        href="/settings/manage"
+      >
+        Service management
+      </a>
+      <div
+        class="tab-border"
+      />
+    </span>
+    <span
+      class="tab col-2 active"
+    >
+      <a
+        href="/settings/service-activity"
+      >
+        Service activity
+      </a>
+      <div
+        class="tab-border"
+      />
+    </span>
+    <span
+      class="tab col-2"
+    >
+      <a
+        href="/settings/user-activity"
+      >
+        User activity
+      </a>
+      <div
+        class="tab-border"
+      />
+    </span>
+  </div>
+  <table
+    class="table table-fixed"
+  >
+    <thead>
+      <tr>
+        <th
+          style="cursor: pointer; width: 32%;"
+        >
+          name
+          <i
+            class="material-icons"
+          >
+            arrow_downward
+          </i>
+        </th>
+        <th
+          style="cursor: pointer; width: 17%;"
+        >
+          edited
+        </th>
+        <th
+          style="cursor: pointer; width: 17%;"
+        >
+          published
+        </th>
+        <th
+          style="cursor: pointer; width: 17%;"
+        >
+          has draft?
+        </th>
+        <th
+          style="cursor: pointer; width: 17%;"
+        >
+          is archived?
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Accusantium aperiam consequatur.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            At consequatur doloribus voluptatem voluptatem.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            At corporis facilis inventore vero animi.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Aut quibusdam labore sit.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Aut soluta in.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td>
+          Yes
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Corrupti cum ratione animi.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Dolores ut natus et.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8y"
+          >
+            Draft for New Service
+          </a>
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          Yes
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Et omnis eaque pariatur non.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Et quam ut voluptatem qui.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Eum porro est doloremque.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8"
+          >
+            Food Tax Rebate Program
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          Yes
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Modi cumque amet.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Officiis excepturi eligendi ducimus autem quo.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Perferendis sit veniam.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Provident non incidunt magnam molestias.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Quidem optio occaecati.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Recusandae asperiores accusamus nihil repellat.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          Yes
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../services/show/L2FwaS9zZXJ2aWNlcy8x"
+          >
+            Senior Center Fitness Discounts
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          1
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Tempora aut eum et blanditiis.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="../servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          >
+            Voluptas iusto animi consequatur.
+          </a>
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

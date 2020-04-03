@@ -1,0 +1,89 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\Service:
+  service1:
+    id: "11ea1d4d-6cd4-b95e-8675-a08cfde838ce"
+    name: "Senior Center Fitness Discounts"
+    description: "Ongoing educational classes and seminars in technology, life skills and more for those age 60 and up."
+    details: "Get a 50% discount on Senior Services programs. Registration for classes can be done by phone, in person, or online."
+    alwaysAcceptApplications: false
+    department: "@department1"
+    applicationWindowStart: "<(new DateTime('2020-01-01', new DateTimeZone('UTC')))>"
+    applicationWindowEnd: "<(new DateTime('2020-12-31', new DateTimeZone('UTC')))>"
+    interests: "[@interest6, @interest8]"
+    applicationAddress: "West Senior Center\n909 Arapahoe Ave.\nBoulder, CO 80302"
+    applicationHours: "Walk-in hours:\nMon-Fri, 8 a.m. to 12:30 p.m.\nAppointment hours: Mon-Fri, 8 a.m. to 5 p.m."
+    applicationPhone: "303-441-3148"
+    contactEmail: "seniorcenter@bouldercolorado.gov"
+    applicationOnline: "http://BoulderSeniorServices.com"
+    applicationWebAddresses: "[http://BoulderSeniorServices.com]"
+    applicationDocuments: "Proof of age"
+    lastModifiedBy: "smithj"
+    lastModifiedByDisplayName: "Jane Smith"
+    lastModifiedDateTime: <(new DateTime('2019-10-10', new DateTimeZone('UTC')))>
+  service2:
+    name: "Food Tax Rebate Program"
+    description: "Get a rebate on your city sales tax."
+    details: "Each year, the City of Boulder provides rebates to help compensate residents with lower incomes for the city sales tax they pay on food."
+    alwaysAcceptApplications: true
+    department: "@department1"
+    interests: "[@interest2, @interest4]"
+    contactEmail: "foodtax@domain.com"
+    applicationAddress: "909 Arapahoe Avenue, Boulder, CO"
+    applicationOnline: "https://bouldercolorado.gov/seniors/food-tax-rebate-program"
+    applicationWebAddresses: "[https://bouldercolorado.gov/seniors/food-tax-rebate-program,http://BoulderSeniorServices.com]"
+    lastModifiedBy: "user"
+    lastModifiedByDisplayName: "John Doe"
+    lastModifiedDateTime: "<(new DateTime('2019-10-15', new DateTimeZone('UTC')))>"
+  service{3..19}:
+    name: "<sentence(4)>"
+    description: "<sentence(10)>"
+    details: "<text(200)>"
+    alwaysAcceptApplications: "<boolean()>"
+    department: "@department<numberBetween(1,20)>"
+    applicationWindowStart: "<dateTimeBetween('2020-01-01', '2020-05-31', 'UTC')>"
+    applicationWindowEnd: "<dateTimeBetween('2020-06-01', '2020-12-31', 'UTC')>"
+    interests: "[@interest*]"
+    applicationAddress: "<streetAddress()>, <city()>, <stateAbbr()> <postcode()>"
+    applicationHours: "<sentence(10)>"
+    applicationPhone: "<phoneNumber()>"
+    contactEmail: "<email()>"
+    applicationOnline: "<url()>"
+    applicationWebAddresses: "[<url()>]"
+    applicationDocuments: "<text(100)>"
+    lastModifiedBy: "<username()>"
+    lastModifiedByDisplayName: "<name()>"
+    lastModifiedDateTime: "<dateTimeBetween('2010-11-12', '2019-10-30', 'UTC')>"
+  service20:
+    name: "<sentence(4)>"
+    description: "<sentence(10)>"
+    details: "<text(200)>"
+    alwaysAcceptApplications: "<boolean()>"
+    department: "@department<numberBetween(1,14)>"
+    applicationWindowStart: "<dateTimeBetween('2020-01-01', '2020-05-31', 'UTC')>"
+    applicationWindowEnd: "<dateTimeBetween('2020-06-01', '2020-12-31', 'UTC')>"
+    interests: "[@interest*]"
+    applicationAddress: "<streetAddress()>, <city()>, <stateAbbr()> <postcode()>"
+    applicationHours: "<sentence(10)>"
+    applicationPhone: "<phoneNumber()>"
+    applicationOnline: "<url()>"
+    applicationWebAddresses: "[<url()>,<url()>]"
+    applicationDocuments: "<text(100)>"
+    lastModifiedBy: "<username()>"
+    lastModifiedByDisplayName: "<name()>"
+    lastModifiedDateTime: "<dateTimeBetween('2010-11-12', '2019-10-30', 'UTC')>"
+    archivedDateTime: "<dateTimeBetween('2010-11-12', '2019-10-30', 'UTC')>"
+    archivedBy: "doejane"
+    archivedByDisplayName: "Jane Doe"

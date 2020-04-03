@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list interests view 1`] = `
+<div>
+  <div
+    class="service-card card"
+    tabindex="-1"
+  >
+    <div
+      class="card-header"
+    >
+      <div
+        class="d-flex justify-content-between mb-0"
+      >
+        <div>
+          Interests
+        </div>
+        <div>
+          <button
+            class="btn btn-primary"
+          >
+            Add interest
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-body"
+    >
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            pets
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Animals
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Animals
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            child_friendly
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Childcare
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Childcare
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            nature_people
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Energy
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Energy
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            fastfood
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Food
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Food
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            home
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Housing
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Housing
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            forum
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Mediation
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Mediation
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            person_outline
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Older adults
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Older adults
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-between mb-3"
+      >
+        <div>
+          <i
+            class="material-icons align-middle"
+          >
+            directions_run
+          </i>
+          <span
+            class="align-middle ml-3"
+          >
+            Wellness
+          </span>
+          <span
+            class="align-middle ml-1"
+          >
+            (
+            <i>
+              Spanish
+              : 
+              Wellness
+            </i>
+            )
+          </span>
+        </div>
+        <div>
+          <button
+            class="btn btn-blue-text"
+          >
+            Manage
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

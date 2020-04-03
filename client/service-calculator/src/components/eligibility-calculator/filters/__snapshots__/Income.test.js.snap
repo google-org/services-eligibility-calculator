@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button with selected income 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis active"
+  >
+    $0
+  </button>
+</div>
+`;
+
+exports[`renders button without selected income 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis "
+  >
+    Add income
+  </button>
+</div>
+`;
+
+exports[`renders modal with selected income 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Income
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="mt-1 mb-4 col-12"
+        >
+          <span
+            class="input-label"
+          >
+            Include yearly income from everyone in your household
+          </span>
+        </div>
+        <div
+          class="income-slider-col col-12"
+        >
+          <span
+            class="MuiSlider-root MuiSlider-colorPrimary"
+          >
+            <span
+              class="MuiSlider-rail"
+            />
+            <span
+              class="MuiSlider-track"
+              style="left: 0%; width: 100%;"
+            />
+            <input
+              type="hidden"
+              value="99"
+            />
+            <span
+              aria-label="Annual household income"
+              aria-orientation="horizontal"
+              aria-valuemax="99"
+              aria-valuemin="0"
+              aria-valuenow="99"
+              aria-valuetext="99 thousand+ dollars"
+              class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-open-47 PrivateValueLabel-thumb-46"
+              data-index="0"
+              role="slider"
+              style="left: 100%;"
+              tabindex="0"
+            >
+              <span
+                class="PrivateValueLabel-offset-48 MuiSlider-valueLabel"
+              >
+                <span
+                  class="PrivateValueLabel-circle-49"
+                >
+                  <span
+                    class="PrivateValueLabel-label-50"
+                  >
+                    99K+
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal without selected income 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Income
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="mt-1 mb-4 col-12"
+        >
+          <span
+            class="input-label"
+          >
+            Include yearly income from everyone in your household
+          </span>
+        </div>
+        <div
+          class="income-slider-col col-12"
+        >
+          <span
+            class="MuiSlider-root MuiSlider-colorPrimary"
+          >
+            <span
+              class="MuiSlider-rail"
+            />
+            <span
+              class="MuiSlider-track"
+              style="left: 0%; width: 0%;"
+            />
+            <input
+              type="hidden"
+              value="0"
+            />
+            <span
+              aria-label="Annual household income"
+              aria-orientation="horizontal"
+              aria-valuemax="99"
+              aria-valuemin="0"
+              aria-valuenow="0"
+              aria-valuetext="0 dollars"
+              class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-open-22 PrivateValueLabel-thumb-21"
+              data-index="0"
+              role="slider"
+              style="left: 0%;"
+              tabindex="0"
+            >
+              <span
+                class="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+              >
+                <span
+                  class="PrivateValueLabel-circle-24"
+                >
+                  <span
+                    class="PrivateValueLabel-label-25"
+                  >
+                    0
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="disabled btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;

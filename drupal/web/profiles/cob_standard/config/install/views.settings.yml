@@ -1,0 +1,60 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+display_extenders: {  }
+skip_cache: false
+sql_signature: false
+ui:
+  show:
+    additional_queries: false
+    advanced_column: false
+    master_display: false
+    performance_statistics: false
+    preview_information: true
+    sql_query:
+      enabled: false
+      where: above
+    display_embed: false
+  always_live_preview: true
+  exposed_filter_any_label: old_any
+field_rewrite_elements:
+  div: DIV
+  span: SPAN
+  h1: H1
+  h2: H2
+  h3: H3
+  h4: H4
+  h5: H5
+  h6: H6
+  p: P
+  header: HEADER
+  footer: FOOTER
+  article: ARTICLE
+  section: SECTION
+  aside: ASIDE
+  details: DETAILS
+  blockquote: BLOCKQUOTE
+  figure: FIGURE
+  address: ADDRESS
+  code: CODE
+  pre: PRE
+  var: VAR
+  samp: SAMP
+  kbd: KBD
+  strong: STRONG
+  em: EM
+  del: DEL
+  ins: INS
+  q: Q
+  s: S

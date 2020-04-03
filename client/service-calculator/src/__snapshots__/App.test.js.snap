@@ -1,0 +1,3364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders after a search for interest 1`] = `
+<div>
+  <div
+    class="non-footer"
+  >
+    <div
+      class="app-header"
+    >
+      <img
+        alt=""
+        class="circle"
+        src="/logo192.png"
+      />
+      <div
+        class="rectangle"
+      >
+        Services for Me
+      </div>
+    </div>
+    <div
+      class="info-header"
+    >
+      <div
+        class="mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons align-middle"
+        >
+          info_outline
+        </i>
+      </div>
+      <div>
+        This is a test info banner!
+      </div>
+    </div>
+    <div
+      class="container-fluid with-info-banner"
+    >
+      <div
+        class="row-scrollable mx-xl-0 row"
+      >
+        <div
+          class="d-xl-block px-xl-4 col-scrollable col-scrollable-left  col-xl-4 col-12"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12"
+            >
+              <h1>
+                Services for me
+              </h1>
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                En español
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <form>
+                <div
+                  class="input-group search"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <label
+                      for="search-input"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="input-group-text"
+                      >
+                        <i
+                          class="material-icons"
+                        >
+                          search
+                        </i>
+                      </span>
+                    </label>
+                  </div>
+                  <input
+                    aria-label="Search"
+                    class="form-control"
+                    placeholder="Search"
+                    type="text"
+                    value="Food"
+                  />
+                  <button
+                    class="btn btn-search-clear"
+                    type="button"
+                  >
+                    <i
+                      aria-label="Clear"
+                      class="material-icons align-middle"
+                    >
+                      close
+                    </i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div
+              class="mb-2 filter-row col-12"
+              tabindex="-1"
+            >
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add people
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add interests
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add income
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add address
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                Clear selections
+              </button>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-recommended"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                Recommended services (1)
+              </h2>
+            </div>
+            <div
+              class="no-results col-12"
+            >
+              <div
+                class="row card-row"
+              >
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy85"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Food Tax Rebate Program
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-other"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                Other services (18)
+              </h2>
+            </div>
+            <div
+              class="col-12"
+            >
+              <div
+                class="row card-row"
+              >
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8w"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Accusantium aperiam consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8x"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At consequatur doloribus voluptatem voluptatem.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8y"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At corporis facilis inventore vero animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8z"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Aut quibusdam labore sit.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy80"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Corrupti cum ratione animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy81"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Dolores ut natus et.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy82"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et omnis eaque pariatur non.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy83"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et quam ut voluptatem qui.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy84"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Eum porro est doloremque.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Modi cumque amet.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Officiis excepturi eligendi ducimus autem quo.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Perferendis sit veniam.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Provident non incidunt magnam molestias.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Quidem optio occaecati.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Recusandae asperiores accusamus nihil repellat.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Senior Center Fitness Discounts
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Tempora aut eum et blanditiis.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xOA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Voluptas iusto animi consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="info-box d-none d-xl-block"
+          >
+            <div
+              class="circle"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons"
+              >
+                lightbulb_outline
+              </i>
+            </div>
+            <div
+              class="info-box-content"
+            >
+              <div
+                aria-hidden="true"
+              >
+                These are only a sample, check out
+              </div>
+              <a
+                aria-label="These are only a sample, check out City website for many other services."
+                href="https://www.google.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                City website
+              </a>
+              <div
+                aria-hidden="true"
+              >
+                for many other services.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-xl-4 col-scrollable col-xl-8 col-12"
+          id="col-scrollable-right"
+        >
+          <div
+            class="row d-none d-xl-flex h-100 justify-content-center align-items-center"
+          >
+            <div
+              class="text-center"
+            >
+              <img
+                alt="Logo"
+                class="placeholder"
+                src="service-placeholder.png"
+              />
+              <h2
+                class="mt-0 mb-5"
+              >
+                Select a service to view details
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="info-box d-xl-none"
+    >
+      <div
+        class="circle"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons"
+        >
+          lightbulb_outline
+        </i>
+      </div>
+      <div
+        class="info-box-content"
+      >
+        <div
+          aria-hidden="true"
+        >
+          These are only a sample, check out
+        </div>
+        <a
+          aria-label="These are only a sample, check out City website for many other services."
+          href="https://www.google.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          City website
+        </a>
+        <div
+          aria-hidden="true"
+        >
+          for many other services.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-footer"
+  >
+    <a
+      href="https://www.google.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      City of ABC
+    </a>
+    •
+    <a
+      href="https://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Share your feedback
+       
+      <i
+        aria-hidden="true"
+        class="material-icons align-middle"
+      >
+        open_in_new
+      </i>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders after a search for name 1`] = `
+<div>
+  <div
+    class="non-footer"
+  >
+    <div
+      class="app-header"
+    >
+      <img
+        alt=""
+        class="circle"
+        src="/logo192.png"
+      />
+      <div
+        class="rectangle"
+      >
+        Services for Me
+      </div>
+    </div>
+    <div
+      class="info-header"
+    >
+      <div
+        class="mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons align-middle"
+        >
+          info_outline
+        </i>
+      </div>
+      <div>
+        This is a test info banner!
+      </div>
+    </div>
+    <div
+      class="container-fluid with-info-banner"
+    >
+      <div
+        class="row-scrollable mx-xl-0 row"
+      >
+        <div
+          class="d-xl-block px-xl-4 col-scrollable col-scrollable-left  col-xl-4 col-12"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12"
+            >
+              <h1>
+                Services for me
+              </h1>
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                En español
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <form>
+                <div
+                  class="input-group search"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <label
+                      for="search-input"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="input-group-text"
+                      >
+                        <i
+                          class="material-icons"
+                        >
+                          search
+                        </i>
+                      </span>
+                    </label>
+                  </div>
+                  <input
+                    aria-label="Search"
+                    class="form-control"
+                    placeholder="Search"
+                    type="text"
+                    value="Senior Center"
+                  />
+                  <button
+                    class="btn btn-search-clear"
+                    type="button"
+                  >
+                    <i
+                      aria-label="Clear"
+                      class="material-icons align-middle"
+                    >
+                      close
+                    </i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div
+              class="mb-2 filter-row col-12"
+              tabindex="-1"
+            >
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add people
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add interests
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add income
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add address
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                Clear selections
+              </button>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-recommended"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                Recommended services (1)
+              </h2>
+            </div>
+            <div
+              class="no-results col-12"
+            >
+              <div
+                class="row card-row"
+              >
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Senior Center Fitness Discounts
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-other"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                Other services (18)
+              </h2>
+            </div>
+            <div
+              class="col-12"
+            >
+              <div
+                class="row card-row"
+              >
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8w"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Accusantium aperiam consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8x"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At consequatur doloribus voluptatem voluptatem.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8y"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At corporis facilis inventore vero animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8z"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Aut quibusdam labore sit.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy80"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Corrupti cum ratione animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy81"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Dolores ut natus et.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy82"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et omnis eaque pariatur non.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy83"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et quam ut voluptatem qui.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy84"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Eum porro est doloremque.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy85"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Food Tax Rebate Program
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Modi cumque amet.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Officiis excepturi eligendi ducimus autem quo.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Perferendis sit veniam.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Provident non incidunt magnam molestias.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Quidem optio occaecati.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Recusandae asperiores accusamus nihil repellat.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Tempora aut eum et blanditiis.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xOA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Voluptas iusto animi consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="info-box d-none d-xl-block"
+          >
+            <div
+              class="circle"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons"
+              >
+                lightbulb_outline
+              </i>
+            </div>
+            <div
+              class="info-box-content"
+            >
+              <div
+                aria-hidden="true"
+              >
+                These are only a sample, check out
+              </div>
+              <a
+                aria-label="These are only a sample, check out City website for many other services."
+                href="https://www.google.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                City website
+              </a>
+              <div
+                aria-hidden="true"
+              >
+                for many other services.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-xl-4 col-scrollable col-xl-8 col-12"
+          id="col-scrollable-right"
+        >
+          <div
+            class="row d-none d-xl-flex h-100 justify-content-center align-items-center"
+          >
+            <div
+              class="text-center"
+            >
+              <img
+                alt="Logo"
+                class="placeholder"
+                src="service-placeholder.png"
+              />
+              <h2
+                class="mt-0 mb-5"
+              >
+                Select a service to view details
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="info-box d-xl-none"
+    >
+      <div
+        class="circle"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons"
+        >
+          lightbulb_outline
+        </i>
+      </div>
+      <div
+        class="info-box-content"
+      >
+        <div
+          aria-hidden="true"
+        >
+          These are only a sample, check out
+        </div>
+        <a
+          aria-label="These are only a sample, check out City website for many other services."
+          href="https://www.google.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          City website
+        </a>
+        <div
+          aria-hidden="true"
+        >
+          for many other services.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-footer"
+  >
+    <a
+      href="https://www.google.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      City of ABC
+    </a>
+    •
+    <a
+      href="https://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Share your feedback
+       
+      <i
+        aria-hidden="true"
+        class="material-icons align-middle"
+      >
+        open_in_new
+      </i>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders clear selections after search with no matches 1`] = `
+<div>
+  <div
+    class="non-footer"
+  >
+    <div
+      class="app-header"
+    >
+      <img
+        alt=""
+        class="circle"
+        src="/logo192.png"
+      />
+      <div
+        class="rectangle"
+      >
+        Services for Me
+      </div>
+    </div>
+    <div
+      class="info-header"
+    >
+      <div
+        class="mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons align-middle"
+        >
+          info_outline
+        </i>
+      </div>
+      <div>
+        This is a test info banner!
+      </div>
+    </div>
+    <div
+      class="container-fluid with-info-banner"
+    >
+      <div
+        class="row-scrollable mx-xl-0 row"
+      >
+        <div
+          class="d-xl-block px-xl-4 col-scrollable col-scrollable-left  col-xl-4 col-12"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12"
+            >
+              <h1>
+                Services for me
+              </h1>
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                En español
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <form>
+                <div
+                  class="input-group search"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <label
+                      for="search-input"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="input-group-text"
+                      >
+                        <i
+                          class="material-icons"
+                        >
+                          search
+                        </i>
+                      </span>
+                    </label>
+                  </div>
+                  <input
+                    aria-label="Search"
+                    class="form-control"
+                    placeholder="Search"
+                    type="text"
+                    value="abcdefghijklmnopqrstuvwxyz"
+                  />
+                  <button
+                    class="btn btn-search-clear"
+                    type="button"
+                  >
+                    <i
+                      aria-label="Clear"
+                      class="material-icons align-middle"
+                    >
+                      close
+                    </i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div
+              class="mb-2 filter-row col-12"
+              tabindex="-1"
+            >
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add people
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add interests
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add income
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add address
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                Clear selections
+              </button>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-recommended"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                Recommended services (0)
+              </h2>
+            </div>
+            <div
+              class="no-results col-12"
+            >
+              <div
+                class="row card-row"
+              />
+              <div
+                class="w-100 mt-4 no-results-header"
+              >
+                No results
+              </div>
+              <div
+                class="w-100 clear-selections-description"
+              >
+                Clear selections to see more services
+              </div>
+              <div
+                class="mt-2 mb-2"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  These are only a sample, check out
+                   
+                </span>
+                <a
+                  aria-label="These are only a sample, check out City website for many other services."
+                  href="https://www.google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  City website
+                </a>
+                <span
+                  aria-hidden="true"
+                >
+                   
+                  for many other services.
+                </span>
+              </div>
+               
+              <button
+                class="btn btn-primary mb-4 mt-2"
+              >
+                Clear selections
+              </button>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-other"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                Other services (19)
+              </h2>
+            </div>
+            <div
+              class="col-12"
+            >
+              <div
+                class="row card-row"
+              >
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8w"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Accusantium aperiam consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8x"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At consequatur doloribus voluptatem voluptatem.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8y"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At corporis facilis inventore vero animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8z"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Aut quibusdam labore sit.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy80"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Corrupti cum ratione animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy81"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Dolores ut natus et.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy82"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et omnis eaque pariatur non.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy83"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et quam ut voluptatem qui.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy84"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Eum porro est doloremque.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy85"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Food Tax Rebate Program
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Modi cumque amet.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Officiis excepturi eligendi ducimus autem quo.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Perferendis sit veniam.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Provident non incidunt magnam molestias.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Quidem optio occaecati.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Recusandae asperiores accusamus nihil repellat.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Senior Center Fitness Discounts
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Tempora aut eum et blanditiis.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xOA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Voluptas iusto animi consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="info-box d-none d-xl-block"
+          >
+            <div
+              class="circle"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons"
+              >
+                lightbulb_outline
+              </i>
+            </div>
+            <div
+              class="info-box-content"
+            >
+              <div
+                aria-hidden="true"
+              >
+                These are only a sample, check out
+              </div>
+              <a
+                aria-label="These are only a sample, check out City website for many other services."
+                href="https://www.google.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                City website
+              </a>
+              <div
+                aria-hidden="true"
+              >
+                for many other services.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-xl-4 col-scrollable col-xl-8 col-12"
+          id="col-scrollable-right"
+        >
+          <div
+            class="row d-none d-xl-flex h-100 justify-content-center align-items-center"
+          >
+            <div
+              class="text-center"
+            >
+              <img
+                alt="Logo"
+                class="placeholder"
+                src="service-placeholder.png"
+              />
+              <h2
+                class="mt-0 mb-5"
+              >
+                Select a service to view details
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="info-box d-xl-none"
+    >
+      <div
+        class="circle"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons"
+        >
+          lightbulb_outline
+        </i>
+      </div>
+      <div
+        class="info-box-content"
+      >
+        <div
+          aria-hidden="true"
+        >
+          These are only a sample, check out
+        </div>
+        <a
+          aria-label="These are only a sample, check out City website for many other services."
+          href="https://www.google.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          City website
+        </a>
+        <div
+          aria-hidden="true"
+        >
+          for many other services.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-footer"
+  >
+    <a
+      href="https://www.google.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      City of ABC
+    </a>
+    •
+    <a
+      href="https://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Share your feedback
+       
+      <i
+        aria-hidden="true"
+        class="material-icons align-middle"
+      >
+        open_in_new
+      </i>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    class="non-footer"
+  >
+    <div
+      class="app-header"
+    >
+      <img
+        alt=""
+        class="circle"
+        src="/logo192.png"
+      />
+      <div
+        class="rectangle"
+      >
+        Services for Me
+      </div>
+    </div>
+    <div
+      class="info-header"
+    >
+      <div
+        class="mr-3"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons align-middle"
+        >
+          info_outline
+        </i>
+      </div>
+      <div>
+        This is a test info banner!
+      </div>
+    </div>
+    <div
+      class="container-fluid with-info-banner"
+    >
+      <div
+        class="row-scrollable mx-xl-0 row"
+      >
+        <div
+          class="d-xl-block px-xl-4 col-scrollable col-scrollable-left  col-xl-4 col-12"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12"
+            >
+              <h1>
+                Services for me
+              </h1>
+              <button
+                class="btn btn-clear btn-gutter "
+              >
+                En español
+              </button>
+            </div>
+            <div
+              class="col-12"
+            >
+              <form>
+                <div
+                  class="input-group search"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <label
+                      for="search-input"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="input-group-text"
+                      >
+                        <i
+                          class="material-icons"
+                        >
+                          search
+                        </i>
+                      </span>
+                    </label>
+                  </div>
+                  <input
+                    aria-label="Search"
+                    class="form-control"
+                    placeholder="Search"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </form>
+            </div>
+            <div
+              class="mb-2 filter-row col-12"
+              tabindex="-1"
+            >
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add people
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add interests
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add income
+              </button>
+              <button
+                class="btn btn-chip ellipsis "
+              >
+                Add address
+              </button>
+            </div>
+          </div>
+          <div
+            class="service-list row"
+            data-testid="service-list-all"
+          >
+            <div
+              class="col-12"
+            >
+              <h2>
+                All city services (19)
+              </h2>
+            </div>
+            <div
+              class="col-12"
+            >
+              <div
+                class="row card-row"
+              >
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8w"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Accusantium aperiam consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8x"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At consequatur doloribus voluptatem voluptatem.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8y"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          At corporis facilis inventore vero animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8z"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Aut quibusdam labore sit.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy80"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Corrupti cum ratione animi.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy81"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Dolores ut natus et.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy82"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et omnis eaque pariatur non.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy83"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Et quam ut voluptatem qui.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy84"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Eum porro est doloremque.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy85"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Food Tax Rebate Program
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Modi cumque amet.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Officiis excepturi eligendi ducimus autem quo.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          nature_people
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Perferendis sit veniam.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xMw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          directions_run
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Provident non incidunt magnam molestias.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Quidem optio occaecati.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNQ"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          pets
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Recusandae asperiores accusamus nihil repellat.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNg"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          person_outline
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Senior Center Fitness Discounts
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xNw"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          forum
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Tempora aut eum et blanditiis.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="col-6 col-md-4 col-lg-3 col-xl-6 card-col"
+                >
+                  <a
+                    class="no-text-decoration"
+                    href="/services/L2FwaS9zZXJ2aWNlcy8xOA"
+                  >
+                    <div
+                      class="card"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="material-icons card-icon"
+                        >
+                          home
+                        </i>
+                        <p
+                          class="card-text"
+                        >
+                          Voluptas iusto animi consequatur.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="info-box d-none d-xl-block"
+          >
+            <div
+              class="circle"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons"
+              >
+                lightbulb_outline
+              </i>
+            </div>
+            <div
+              class="info-box-content"
+            >
+              <div
+                aria-hidden="true"
+              >
+                These are only a sample, check out
+              </div>
+              <a
+                aria-label="These are only a sample, check out City website for many other services."
+                href="https://www.google.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                City website
+              </a>
+              <div
+                aria-hidden="true"
+              >
+                for many other services.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-xl-4 col-scrollable col-xl-8 col-12"
+          id="col-scrollable-right"
+        >
+          <div
+            class="row d-none d-xl-flex h-100 justify-content-center align-items-center"
+          >
+            <div
+              class="text-center"
+            >
+              <img
+                alt="Logo"
+                class="placeholder"
+                src="service-placeholder.png"
+              />
+              <h2
+                class="mt-0 mb-5"
+              >
+                Select a service to view details
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="info-box d-xl-none"
+    >
+      <div
+        class="circle"
+      >
+        <i
+          aria-hidden="true"
+          class="material-icons"
+        >
+          lightbulb_outline
+        </i>
+      </div>
+      <div
+        class="info-box-content"
+      >
+        <div
+          aria-hidden="true"
+        >
+          These are only a sample, check out
+        </div>
+        <a
+          aria-label="These are only a sample, check out City website for many other services."
+          href="https://www.google.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          City website
+        </a>
+        <div
+          aria-hidden="true"
+        >
+          for many other services.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="app-footer"
+  >
+    <a
+      href="https://www.google.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      City of ABC
+    </a>
+    •
+    <a
+      href="https://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Share your feedback
+       
+      <i
+        aria-hidden="true"
+        class="material-icons align-middle"
+      >
+        open_in_new
+      </i>
+    </a>
+  </div>
+</div>
+`;

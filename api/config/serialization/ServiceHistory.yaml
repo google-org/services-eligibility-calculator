@@ -1,0 +1,64 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\ServiceHistory:
+  attributes:
+    name:
+      groups: ["service_history:read"]
+    description:
+      groups: ["service_history:read"]
+    details:
+      groups: ["service_history:read"]
+    alwaysAcceptApplications:
+      groups: ["service_history:read"]
+    department:
+      groups: ["service_history:read"]
+    applicationWindowStart:
+      groups: ["service_history:read"]
+    applicationWindowEnd:
+      groups: ["service_history:read"]
+    interests:
+      groups: ["service_history:read"]
+    eligibilityProfiles:
+      groups: ["service_history:read"]
+    applicationAddress:
+      groups: ["service_history:read"]
+    applicationHours:
+      groups: ["service_history:read"]
+    applicationPhone:
+      groups: ["service_history:read"]
+    applicationPhoneOther:
+      groups: ["service_history:read"]
+    contactEmail:
+      groups: ["service_history:read"]
+    applicationOnline:
+      groups: ["service_history:read"]
+    applicationWebAddresses:
+      groups: ["service_history:read"]
+    applicationDocuments:
+      groups: ["service_history:read"]
+    lastModifiedDateTime:
+      groups: ["service:read", "service_draft:read", "service_history:read"]
+    lastModifiedBy:
+      groups: ["service:read", "service_draft:read", "service_history:read"]
+    lastModifiedByDisplayName:
+      groups: ["service:read", "service_draft:read", "service_history:read"]
+    lastModifiedAgo:
+      groups: ["service:read", "service_draft:read", "service_history:read"]
+    revision:
+      groups: ["service:read", "service_draft:read", "service_history:read"]
+    service:
+      groups: ["service_history:read"]
+    shares:
+      groups: ["service_history:read"]

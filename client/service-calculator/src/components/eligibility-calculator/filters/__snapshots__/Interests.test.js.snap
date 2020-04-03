@@ -1,0 +1,517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button with a selected interest 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis active"
+  >
+    Interest1
+  </button>
+</div>
+`;
+
+exports[`renders button without selected interests 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis "
+  >
+    Add interests
+  </button>
+</div>
+`;
+
+exports[`renders modal with a selected interest 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Interests
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="card-row row"
+      >
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                pets
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Animals
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="true"
+            class="selected card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                child_friendly
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Childcare
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                nature_people
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Energy
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                fastfood
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Food
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                home
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Housing
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                forum
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Mediation
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                person_outline
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Older adults
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                directions_run
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Wellness
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal without selected interests 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Interests
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="card-row row"
+      >
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                pets
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Animals
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                child_friendly
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Childcare
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                nature_people
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Energy
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                fastfood
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Food
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                home
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Housing
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                forum
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Mediation
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                person_outline
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Older adults
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-6"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                directions_run
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Wellness
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="disabled btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;

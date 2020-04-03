@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Services Manager module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function services_manager_install() {
+  \Drupal::messenger()->addStatus(__FUNCTION__);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function services_manager_uninstall() {
+  \Drupal::messenger()->addStatus(__FUNCTION__);
+}

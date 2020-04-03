@@ -1,0 +1,148 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.eligibility_profile.field_agemax
+    - field.field.paragraph.eligibility_profile.field_agemin
+    - field.field.paragraph.eligibility_profile.field_citizenrequired
+    - field.field.paragraph.eligibility_profile.field_fees
+    - field.field.paragraph.eligibility_profile.field_incomemaxima
+    - field.field.paragraph.eligibility_profile.field_maximum_income_selector
+    - field.field.paragraph.eligibility_profile.field_other
+    - field.field.paragraph.eligibility_profile.field_percentami
+    - field.field.paragraph.eligibility_profile.field_percentfpl
+    - field.field.paragraph.eligibility_profile.field_residentrequired
+    - paragraphs.paragraphs_type.eligibility_profile
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_maximum_income:
+      children:
+        - field_maximum_income_selector
+        - field_percentami
+        - field_percentfpl
+        - field_incomemaxima
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: false
+      label: 'Maximum income'
+    group_age_of_applicant:
+      children:
+        - field_agemin
+        - field_agemax
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: false
+      label: 'Age of applicant'
+id: paragraph.eligibility_profile.default
+targetEntityType: paragraph
+bundle: eligibility_profile
+mode: default
+content:
+  field_agemax:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_agemin:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_citizenrequired:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_fees:
+    weight: 4
+    settings:
+      size: 100
+      placeholder: 'Any fee (application fee, class fee, etc.) or prerequisite (e.g. own electric vehicle)'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_incomemaxima:
+    weight: 12
+    settings:
+      placeholder: $0
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_maximum_income_selector:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_other:
+    weight: 8
+    settings:
+      size: 100
+      placeholder: 'Any details not outlined above'
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_percentami:
+    weight: 10
+    settings:
+      placeholder: 0%
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_percentfpl:
+    weight: 11
+    settings:
+      placeholder: 0%
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_residentrequired:
+    weight: 6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  translation:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

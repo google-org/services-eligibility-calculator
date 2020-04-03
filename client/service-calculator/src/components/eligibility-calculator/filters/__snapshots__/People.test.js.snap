@@ -1,0 +1,505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button with selected people 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis active"
+  >
+    10 people
+  </button>
+</div>
+`;
+
+exports[`renders button without selected people 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis "
+  >
+    Add people
+  </button>
+</div>
+`;
+
+exports[`renders modal with selected people 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        People in your household
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Older adults
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 59+
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Older adults"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            1
+          </span>
+          <button
+            aria-label="Increase Older adults"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Adults
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 18-58
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Adults"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            2
+          </span>
+          <button
+            aria-label="Increase Adults"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Teens
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 13-17
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Teens"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            3
+          </span>
+          <button
+            aria-label="Increase Teens"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Children
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 0-12
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Children"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            4
+          </span>
+          <button
+            aria-label="Increase Children"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal without selected people 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        People in your household
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Older adults
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 59+
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Older adults"
+            class="btn btn-people-input"
+            disabled=""
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            0
+          </span>
+          <button
+            aria-label="Increase Older adults"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Adults
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 18-58
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Adults"
+            class="btn btn-people-input"
+            disabled=""
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            0
+          </span>
+          <button
+            aria-label="Increase Adults"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Teens
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 13-17
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Teens"
+            class="btn btn-people-input"
+            disabled=""
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            0
+          </span>
+          <button
+            aria-label="Increase Teens"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-3 row"
+      >
+        <div
+          class="col-6"
+        >
+          <span
+            class="input-label"
+          >
+            Children
+          </span>
+          <span
+            class="people-input-description"
+          >
+            Ages 0-12
+          </span>
+        </div>
+        <div
+          class="people-input col-6"
+        >
+          <button
+            aria-label="Decrease Children"
+            class="btn btn-people-input"
+            disabled=""
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              remove
+            </i>
+          </button>
+          <span
+            class="people-input-value align-middle"
+          >
+            0
+          </span>
+          <button
+            aria-label="Increase Children"
+            class="btn btn-people-input"
+          >
+            <i
+              class="material-icons align-middle"
+            >
+              add
+            </i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="disabled btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;

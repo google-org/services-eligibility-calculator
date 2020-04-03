@@ -1,0 +1,5 @@
+# Aptfile to install mysql dependencies for heroku.
+# Requires the heroku-buildpack-apt buildpack.
+mysql-common
+mysql-client
+sqlite3

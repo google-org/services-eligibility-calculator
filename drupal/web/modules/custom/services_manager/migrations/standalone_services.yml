@@ -1,0 +1,117 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+migration_group: services_standalone
+id: services
+label: 'Standalone Services'
+source:
+  # The @MigrateSource ID of the src/Plugin/migrate/source plugin.
+  plugin: services
+  # The source database connection defined in settings.php or settings.local.php
+  key: migrate
+  track_changes: true
+process:
+  changed: &changed_datetime
+    plugin: format_date
+    source: last_modified_date_time
+    from_format: 'Y-m-d H:i:s'
+    to_format: 'U'
+    from_timezone: 'UTC'
+    to_timezone: 'UTC'
+  # The standalone backend doesn't track creation time, so just make it the
+  # same as the last modified time.
+  created: *changed_datetime
+  field_acceptingapplications: always_accept_applications
+  field_applicationaddress: application_address
+  field_applicationdocuments/value: application_documents
+  field_applicationdocuments/format:
+    plugin: default_value
+    default_value: "basic_html"
+  field_applicationhours: application_hours
+  field_applicationonline: application_online
+  field_applicationphone: application_phone
+  field_applicationphoneother: application_phone_other
+  field_applicationwebaddresses: application_web_addresses
+  field_applicationwindowend: application_window_end
+  field_applicationwindowstart: application_window_start
+  field_contact: contact_email
+  field_department:
+    plugin: migration_lookup
+    source: department_id
+    migration: departments
+    no_stub: true
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: "basic_html"
+  field_details/value: details
+  field_details/format:
+    plugin: default_value
+    default_value: "basic_html"
+  field_eligibilityprofiles:
+    source: eligibility_profiles
+    plugin: sub_process
+    process:
+      temp_eligibility_lookup:
+        plugin: migration_lookup
+        migration: eligibilityprofiles
+        no_stub: true
+        source: profile_uuid
+      target_id:
+        plugin: extract
+        source: '@temp_eligibility_lookup'
+        index:
+          - 0
+      target_revision_id:
+        plugin: extract
+        source: '@temp_eligibility_lookup'
+        index:
+          - 1
+  field_interests:
+      plugin: migration_lookup
+      migration: interests
+      source: interests
+      no_stub: true
+  status: published
+  title: name
+  uid:
+    # NOTE: This assumes the user accounts in the standalone database have a
+    # reasonable mapping to Drupal accounts (i.e. created from the same LDAP
+    # source with the same naming scheme), but depending on how Drupal is
+    # setup, that's far from guaranteed (as well as whether or not a given
+    # account even still exists in the organizaiton), so this just makes a best
+    # effort attempt to map account names, and otherwise assigns services to
+    # the admin account.
+    -
+      plugin: entity_lookup
+      entity_type: user
+      value_key: name
+      source: last_modified_by
+    -
+      plugin: default_value
+      default_value: 1  # Use the admin account.
+destination:
+  # Import into nodes of content-type 'services'.
+  plugin: 'entity:node'
+  default_bundle: service
+
+migration_dependencies:
+  required:
+    - departments
+    - interests
+    - eligibilityprofiles
+dependencies:
+  enforced:
+    module:
+      - services_manager

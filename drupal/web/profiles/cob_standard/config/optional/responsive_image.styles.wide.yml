@@ -1,0 +1,39 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+uuid: 5cffd3ef-5656-4446-b200-b771d8076568
+status: true
+dependencies:
+  config:
+    - image.style.max_2600x2600
+    - image.style.max_1300x1300
+    - image.style.max_650x650
+    - image.style.max_325x325
+langcode: en
+id: wide
+label: Wide
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 1290px) 1290px, 100vw'
+      sizes_image_styles:
+        - max_2600x2600
+        - max_1300x1300
+        - max_650x650
+        - max_325x325
+breakpoint_group: responsive_image
+fallback_image_style: max_325x325

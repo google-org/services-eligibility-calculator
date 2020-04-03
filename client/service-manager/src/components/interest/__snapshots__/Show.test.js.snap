@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders show an interest modal 1`] = `
+<div
+  aria-modal="true"
+  class="fade modal show"
+  role="dialog"
+  style="display: block;"
+  tabindex="-1"
+>
+  <div
+    class="modal-dialog modal-xl"
+    role="document"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="modal-body"
+      >
+        <h1>
+          Interest: 
+          Animals
+        </h1>
+        <table
+          class="table table-responsive"
+        >
+          <thead>
+            <tr>
+              <th>
+                Field
+              </th>
+              <th>
+                Value
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th
+                scope="row"
+              >
+                name
+              </th>
+              <td>
+                Animals
+                 
+                (
+                <i>
+                  Spanish
+                  : 
+                  Animals
+                </i>
+                )
+              </td>
+            </tr>
+            <tr>
+              <th
+                scope="row"
+              >
+                materialIcon
+              </th>
+              <td>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-1"
+                  >
+                    <i
+                      class="material-icons"
+                    >
+                      pets
+                    </i>
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    pets
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="float-left"
+        >
+          <button
+            class="btn btn-blue-text"
+          >
+            Close
+          </button>
+        </div>
+        <div
+          class="float-right"
+        >
+          <button
+            class="btn btn-blue-text"
+          >
+            Remove
+          </button>
+          <button
+            class="btn btn-blue-text"
+          >
+            Edit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,32 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+name: max_2600x2600
+label: 'Max 2600x2600'
+effects:
+  9b311dd1-0351-45a1-9500-cd069e4670cb:
+    id: image_scale
+    data:
+      width: 2600
+      height: 2600
+      upscale: false
+    weight: 3
+    uuid: 9b311dd1-0351-45a1-9500-cd069e4670cb
+langcode: en
+dependencies:
+  module:
+    - responsive_image
+  enforced:
+    module:
+      - responsive_image

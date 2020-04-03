@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders share a service modal 1`] = `
+<div
+  aria-modal="true"
+  class="fade action-modal modal show"
+  role="dialog"
+  style="display: block;"
+  tabindex="-1"
+>
+  <div
+    class="modal-dialog"
+    role="document"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="header modal-header"
+      >
+        <h2>
+          Share service
+        </h2>
+      </div>
+      <div
+        class="modal-body"
+      >
+        <p>
+          They will be able to edit, publish, and delete this service
+        </p>
+        <form
+          id="share-form"
+        >
+          <div
+            class="form-body"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-sm-3"
+              >
+                <label
+                  class="col-form-label"
+                  for="share_email"
+                >
+                  Email:
+                </label>
+              </div>
+              <div
+                class="col"
+              >
+                <input
+                  class="form-control"
+                  id="share_email"
+                  name="email"
+                  required=""
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="float-right"
+          >
+            <button
+              class="btn btn-blue-text"
+              type="button"
+            >
+              Cancel
+            </button>
+            <button
+              class="btn btn-primary"
+            >
+              Share
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

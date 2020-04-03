@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button with selected not resident state 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis active"
+  >
+    Not in City
+  </button>
+</div>
+`;
+
+exports[`renders button with selected resident state 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis active"
+  >
+    In City
+  </button>
+</div>
+`;
+
+exports[`renders button without selected resident state 1`] = `
+<div>
+  <button
+    class="btn btn-chip ellipsis "
+  >
+    Add address
+  </button>
+</div>
+`;
+
+exports[`renders modal with selected not resident state 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Address
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="mt-2 mb-3 col-12"
+        >
+          <span
+            class="input-label"
+          >
+            A city address is required for most services
+          </span>
+        </div>
+      </div>
+      <div
+        class="card-row row"
+      >
+        <div
+          class="card-col col-12"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                check
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Resident of City
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-12"
+        >
+          <button
+            aria-pressed="true"
+            class="selected card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                close
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Not a resident of City
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="mt-3 text-center col-12"
+        >
+          <a
+            class="no-text-decoration"
+            href="https://maps.google.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span
+              class="unsure-link"
+            >
+              I'm not sure, help me check
+               
+              <i
+                aria-hidden="true"
+                class="material-icons align-top"
+              >
+                open_in_new
+              </i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal with selected resident state 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Address
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="mt-2 mb-3 col-12"
+        >
+          <span
+            class="input-label"
+          >
+            A city address is required for most services
+          </span>
+        </div>
+      </div>
+      <div
+        class="card-row row"
+      >
+        <div
+          class="card-col col-12"
+        >
+          <button
+            aria-pressed="true"
+            class="selected card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                check
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Resident of City
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-12"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                close
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Not a resident of City
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="mt-3 text-center col-12"
+        >
+          <a
+            class="no-text-decoration"
+            href="https://maps.google.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span
+              class="unsure-link"
+            >
+              I'm not sure, help me check
+               
+              <i
+                aria-hidden="true"
+                class="material-icons align-top"
+              >
+                open_in_new
+              </i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal without selected resident state 1`] = `
+<div
+  class="modal-dialog modal-md modal-dialog-centered"
+  role="document"
+>
+  <div
+    class="modal-content"
+  >
+    <div
+      class="modal-header"
+    >
+      <div
+        class="text-center w-100 text-center modal-title h4"
+      >
+        Address
+        <button
+          aria-label="Close"
+          class="close float-right modal-close"
+          data-dismiss="modal"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="align-middle"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-body"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="mt-2 mb-3 col-12"
+        >
+          <span
+            class="input-label"
+          >
+            A city address is required for most services
+          </span>
+        </div>
+      </div>
+      <div
+        class="card-row row"
+      >
+        <div
+          class="card-col col-12"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                check
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Resident of City
+              </span>
+            </div>
+          </button>
+        </div>
+        <div
+          class="card-col col-12"
+        >
+          <button
+            aria-pressed="false"
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <i
+                aria-hidden="true"
+                class="material-icons card-icon align-top"
+              >
+                close
+              </i>
+              <span
+                class="card-text align-middle"
+              >
+                Not a resident of City
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="mt-3 text-center col-12"
+        >
+          <a
+            class="no-text-decoration"
+            href="https://maps.google.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span
+              class="unsure-link"
+            >
+              I'm not sure, help me check
+               
+              <i
+                aria-hidden="true"
+                class="material-icons align-top"
+              >
+                open_in_new
+              </i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <button
+        class="disabled btn btn-clear btn-gutter my-0"
+      >
+        Clear
+      </button>
+      <button
+        class="btn btn-primary float-right my-0 mx-0"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+</div>
+`;

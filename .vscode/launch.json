@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for XDebug (PHP)",
+      "type": "php",
+      "request": "launch",
+      "port": 9000,
+      "log": true
+    },
+    {
+      "name": "Launch via CLI (PHP)",
+      "request": "launch",
+      "type": "php",
+      "program": "${file}",
+      "cwd": "${workspaceRoot}",
+      "externalConsole": false
+    },
+    {
+      "name": "Debug service-manager-client Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceRoot}/client/service-manager/node_modules/.bin/react-scripts",
+      "args": ["test", "--runInBand", "--no-cache", "--watchAll=false"],
+      "cwd": "${workspaceRoot}/client/service-manager",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": {
+        "CI": "true",
+        "NODE_PATH": "./node_modules"
+      },
+      "disableOptimisticBPs": true
+    },
+    {
+      "name": "Debug service-calculator-client Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceRoot}/client/service-calculator/node_modules/.bin/react-scripts",
+      "args": ["test", "--runInBand", "--no-cache", "--watchAll=false"],
+      "cwd": "${workspaceRoot}/client/service-calculator",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": {
+        "CI": "true",
+        "NODE_PATH": "./node_modules"
+      },
+      "disableOptimisticBPs": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch updateMockData.js",
+      "program": "${workspaceFolder}/client/testing/updateMockData.js",
+      "cwd": "${workspaceFolder}/client/testing"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Scraper",
+      "program": "${workspaceFolder}/service-manager/scrapers/bld-connect-scraper/index.js",
+      "cwd": "${workspaceFolder}/service-manager/scrapers/bld-connect-scraper"
+    }
+  ]
+}

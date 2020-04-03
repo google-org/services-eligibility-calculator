@@ -1,0 +1,5 @@
+# Ignore directories not used at runtime.
+/.github
+/.vscode
+/deploy
+/tools

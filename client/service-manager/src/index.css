@@ -1,0 +1,354 @@
+/**
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:regular,bold,italic,500&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,500&subset=latin,latin-ext');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.2px;
+
+  color: #3c4043;
+  background: #fafafa;
+}
+
+.label,
+label {
+  color: #5f6368;
+}
+
+.instructions {
+  color: #5f6368;
+  margin: 20px 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #3c4043;
+}
+
+.service-header {
+  font-size: 36px;
+  line-height: 44px;
+  background-color: #fafafa;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.service-footer {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+button.arrow-back {
+  font-size: 26px;
+  margin-right: 29px;
+  margin-top: -5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.badge {
+  /* Badge */
+
+  /* Auto Layout */
+
+  padding: 8px 12px;
+  margin-left: 18px;
+
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: center;
+  margin: 0px 37px;
+
+  /* Subhead/1 - 16px */
+
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  /* grey/700 ✔ */
+
+  color: #5f6368;
+
+  vertical-align: top;
+}
+
+.badge.badge-draft {
+  background: #feefc3;
+}
+
+.badge.badge-archived {
+  background: #dadce0;
+}
+
+.badge.badge-old-version {
+  background: #c6ddf7;
+}
+
+h1.list {
+  margin-bottom: 26px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-family: 'Google Sans', sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+}
+
+.container.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1;
+  padding: 2.5px;
+  padding-right: 15px;
+}
+
+.inline > div {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2.5px;
+}
+
+.container.body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.row {
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+}
+
+div.bd-content {
+  padding-top: 40px;
+}
+
+.btn {
+  /* Button/Medium - 14px */
+
+  font-family: Google Sans;
+  font-size: 14px;
+  /* line-height: 16px; */
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+.btn-primary {
+  background-color: #1a73e8;
+}
+
+.btn-borderless {
+  border: none;
+}
+
+.btn-borderless:hover {
+  color: #1458b3;
+  background-color: #c6dcfa;
+}
+
+.btn-blue-text {
+  color: #1a73e8;
+}
+.btn-blue-text:disabled:hover {
+  color: #1a73e8;
+}
+.btn-blue-text:hover {
+  color: #1458b3;
+  background-color: #c6dcfa;
+}
+
+.btn.btn-clear {
+  /* Button/Medium - 14px */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: 0.15px;
+
+  /* blue/600 ✔ */
+
+  color: #1a73e8;
+}
+
+.btn.btn-gutter {
+  padding: 10px 12px;
+  margin-left: -12px;
+}
+
+.btn-language-selected:hover {
+  color: inherit;
+  background-color: inherit;
+}
+.btn-language-selected {
+  border-bottom: 3px solid #1a73e8;
+  border-radius: 0;
+}
+.btn-language-selected:focus {
+  box-shadow: none;
+  border-bottom: 3px solid #024286;
+  border-radius: 0;
+}
+.btn-language:focus {
+  box-shadow: none;
+  border-bottom: 3px solid grey;
+  border-radius: 0;
+}
+
+.table thead th {
+  /* Subtitle/Overline - 11px */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+
+  padding-left: 24px;
+  padding-right: 24px;
+
+  padding-top: 23px;
+  padding-bottom: 23px;
+
+  color: #5f6368;
+
+  border: none;
+}
+
+table.table {
+  background: #ffffff;
+  /* grey/300 ✔ */
+
+  border: 1px solid #dadce0;
+  box-sizing: border-box;
+  border-collapse: initial;
+  border-radius: 8px;
+  border-spacing: 0px;
+}
+
+table.table-fixed {
+  table-layout: fixed;
+}
+
+table.table td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+div.left-nav {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 32px;
+}
+
+div.left-nav a.nav-link {
+  padding: 16px 16px;
+  display: inline-flex;
+  vertical-align: middle;
+  width: 100%;
+  height: 56px;
+
+  /* Headline/6 - 18px */
+
+  font-family: Google Sans;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  /* grey/800 ✔ */
+
+  color: #3c4043;
+}
+
+div.left-nav a.nav-link.active {
+  /* blue/50 */
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+
+  background: #e8f0fe;
+
+  color: #1a73e8;
+}
+
+div.left-nav a.nav-link i.material-icons {
+  padding-right: 16px;
+}
+
+.table i.material-icons {
+  font-size: 16px;
+  padding-left: 2px;
+  vertical-align: middle;
+  color: #5f6368;
+}
+
+.language-buttons {
+  margin-left: 7px;
+}

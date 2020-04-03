@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders show a service modal 1`] = `
+<div>
+  <div
+    class="service-details mx-auto"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="mt-3 col-12"
+      >
+        <button
+          class="btn btn-clear btn-gutter d-xl-none"
+        >
+          <i
+            aria-hidden="true"
+            class="material-icons align-top"
+          >
+            arrow_back
+          </i>
+           
+          Back
+        </button>
+        <h1
+          class="mt-1 mb-3 service"
+          id="service-details-name"
+          tabindex="-1"
+        >
+          Accusantium aperiam consequatur.
+        </h1>
+      </div>
+    </div>
+    <div
+      class="gutter-24 row"
+    >
+      <div
+        class="px-0 px-md-4 col-12"
+      >
+        <div
+          class="service-card card"
+          tabindex="-1"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              style="font-size: 16px;"
+            >
+              <div>
+                Rem reprehenderit delectus architecto vero numquam aut repellendus.
+              </div>
+            </div>
+            <div
+              class="accepting-applications-future inline box"
+            >
+              <div>
+                <i
+                  aria-hidden="true"
+                  class="material-icons"
+                >
+                  schedule
+                </i>
+              </div>
+              <div>
+                Accepting applications starting 
+                Apr 27, 2020
+              </div>
+            </div>
+            <div
+              class="mt-4 row"
+            >
+              <div
+                class="col-6"
+              >
+                <button
+                  class="btn btn-share w-100"
+                >
+                  Share
+                </button>
+              </div>
+              <div
+                class="col-6"
+              >
+                <a
+                  class="btn btn-primary w-100"
+                  href="https://marquardt.biz/possimus-cupiditate-iure-quo-sit-ratione.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="service-card card"
+          tabindex="-1"
+        >
+          <div
+            class="card-header"
+          >
+            What is the service?
+            <button
+              aria-label="minimize"
+              class="MuiButtonBase-root MuiIconButton-root card-collapse-icon float-right material-icons align-middle"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                remove
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <div>
+                  Impedit non assumenda similique. Voluptates sunt tempora voluptas accusantium alias reprehenderit veritatis. Eos doloribus et magnam est enim totam necessitatibus.
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                Department
+                :
+              </div>
+              <div
+                class="text-break col"
+              >
+                Housing and Human Services
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                Application window
+                :
+              </div>
+              <div
+                class="text-break col"
+              >
+                Apr 27, 2020
+                 - 
+                Sep 3, 2020
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                Relates to
+                :
+              </div>
+              <div
+                class="text-break col"
+              >
+                <span>
+                  Wellness
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="service-card card"
+          tabindex="-1"
+        >
+          <div
+            class="card-header"
+          >
+            Who is eligible?
+            <button
+              aria-label="minimize"
+              class="MuiButtonBase-root MuiIconButton-root card-collapse-icon float-right material-icons align-middle"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                remove
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="card-body"
+          />
+        </div>
+        <div
+          class="service-card card"
+          tabindex="-1"
+        >
+          <div
+            class="card-header"
+          >
+            How do I apply?
+            <button
+              aria-label="minimize"
+              class="MuiButtonBase-root MuiIconButton-root card-collapse-icon float-right material-icons align-middle"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                remove
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                Learn more
+                :
+              </div>
+              <div
+                class="col"
+              >
+                <a
+                  href="https://marquardt.biz/possimus-cupiditate-iure-quo-sit-ratione.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://marquardt.biz/possimus-cupiditate-iure-quo-sit-ratione.html
+                </a>
+              </div>
+            </div>
+            <hr />
+            <div
+              class="instructions"
+            >
+              First, you'll need
+              :
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="text-break col"
+              >
+                <div>
+                  Totam porro consequatur molestias recusandae non hic. Et libero aperiam commodi dolor.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div
+              class="instructions"
+            >
+              When you're ready, apply
+              :
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                <i
+                  aria-hidden="true"
+                  class="material-icons apply-icon align-middle"
+                >
+                  phone
+                </i>
+                <span
+                  class="align-middle"
+                >
+                  Call:
+                </span>
+              </div>
+              <div
+                class="col"
+              >
+                <a
+                  href="tel:827.937.7299"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  827.937.7299
+                </a>
+                 
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                <i
+                  aria-hidden="true"
+                  class="material-icons apply-icon align-middle"
+                >
+                  email
+                </i>
+                <span
+                  class="align-middle"
+                >
+                  Email:
+                </span>
+              </div>
+              <div
+                class="col"
+              >
+                <a
+                  href="mailto:ebert.harley@prosacco.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  ebert.harley@prosacco.com
+                </a>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                <i
+                  aria-hidden="true"
+                  class="material-icons apply-icon align-middle"
+                >
+                  computer
+                </i>
+                <span
+                  class="align-middle"
+                >
+                  Online:
+                </span>
+              </div>
+              <div
+                class="col"
+              >
+                <a
+                  href="http://www.oconner.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  http://www.oconner.com/
+                </a>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="label col-md-4"
+              >
+                <i
+                  aria-hidden="true"
+                  class="material-icons apply-icon align-middle"
+                >
+                  directions_walk
+                </i>
+                <span
+                  class="align-middle"
+                >
+                  In person:
+                </span>
+              </div>
+              <div
+                class="col"
+              >
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=4070%20Torphy%20Isle%2C%20Stokesburgh%2C%20VT%2032336"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div>
+                    4070 Torphy Isle, Stokesburgh, VT 32336
+                  </div>
+                </a>
+                <br />
+                <div>
+                  A eaque tempora quia ex id qui assumenda.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

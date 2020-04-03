@@ -1,0 +1,241 @@
+/**
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.service-form .form-body {
+  max-height: 75vh;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+.service-form .form-footer {
+  margin-top: 0;
+}
+
+.service-form .form-control {
+  color: #3c4043;
+  font-size: 14px;
+}
+.service-form textarea.form-control {
+  min-height: 35px;
+}
+.service-form .form-control::placeholder,
+.service-form .form-control.placeholder,
+.service-form .placeholder {
+  color: #80868b;
+}
+
+.service-form .textbox {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.service-form .small-text {
+  float: none;
+  display: inline;
+}
+
+/* Customize the checkbox container */
+.service-form .checkbox-container {
+  display: inline-grid;
+  position: relative;
+  padding-left: 30px;
+  margin: 8px 8px 8px 0;
+  color: #3c4043;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.service-form .checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.service-form input[type='date']::-webkit-inner-spin-button {
+  display: none;
+}
+.service-form input[type='date']::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'%3E%3Cpath xmlns='http://www.w3.org/2000/svg' fill='%2380868B' d='M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z'/%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3C/svg%3E");
+  width: 12px;
+  height: 17px;
+  border-width: thin;
+  background-repeat: no-repeat;
+}
+.service-form input[type='date']::-webkit-clear-button {
+  display: none;
+}
+.service-form input[type='time']::-ms-clear {
+  display: none;
+}
+
+/* Create a custom checkbox */
+.service-form .checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: solid 2px #5f6368;
+  border-radius: 3px;
+}
+
+/* On mouse-over or focus, add a grey background color */
+.service-form .checkbox-container:hover input ~ .checkbox,
+.service-form .checkbox-container input:focus ~ .checkbox {
+  background-color: #cbcbcc;
+}
+
+.service-form .checkbox-container input:disabled ~ .checkbox {
+  background-color: #e9ecef;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.service-form .checkbox:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.service-form .checkbox-container input:checked ~ .checkbox:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.service-form .checkbox-container .checkbox:after {
+  left: 4px;
+  top: 0px;
+  width: 6px;
+  height: 12px;
+  border: solid #5f6368;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.service-form .radio-button {
+  padding: 4px 0;
+}
+
+.service-form .form-check-label {
+  color: #3c4043;
+  margin-left: 28px;
+}
+.service-form .form-check-input {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+
+.service-form .slider {
+  padding-top: 15px;
+}
+.service-form span.MuiSlider-root {
+  color: #1a73e8;
+  padding: 20px 0px;
+}
+
+.service-form .income-block {
+  margin: 20px 0;
+}
+.service-form .income-grid {
+  background: #f1f3f4;
+  border-radius: 8px;
+  padding: 20px 20px 1px 20px;
+  margin: 20px 7px 20px 15px;
+}
+.service-form .income-grid .col-5 {
+  margin-bottom: 4px;
+}
+
+.service-form .income-inputs {
+  display: flex;
+  align-items: center;
+}
+
+.service-form .income-inputs label {
+  margin: 0;
+}
+
+.service-form .invalid-feedback {
+  display: block;
+  font-size: 12px;
+}
+
+.service-form .is-invalid {
+  color: #dc3545;
+}
+
+.service-form .rdw-editor-wrapper {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 5px 5px;
+  min-height: 110px;
+}
+
+.service-form .public-DraftEditorPlaceholder-root {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.service-form .rdw-editor-wrapper:focus-within {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.service-form .rdw-editor-main {
+  overflow: visible;
+  margin: 0 10px;
+  word-break: break-word;
+  height: unset;
+}
+
+.service-form .rdw-editor-wrapper.is-invalid {
+  border-color: #dc3545;
+}
+
+.service-form .rdw-editor-wrapper.is-invalid:focus-within {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.service-form .rdw-link-modal {
+  height: auto;
+}
+
+.service-form .eligibility-profile-remove {
+  display: flex;
+}
+
+.service-form .eligibility-profile-remove .btn {
+  margin-left: auto;
+  margin-right: -16px;
+  order: 2;
+}

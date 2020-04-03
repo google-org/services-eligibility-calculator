@@ -1,0 +1,39 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+ldap_tools:
+  domains:
+    main:
+      domain_name: '%env(LDAP_DOMAIN_NAME)%'
+      username: '%env(LDAP_USERNAME)%'
+      password: '%env(LDAP_PASSWORD)%'
+      base_dn: '%env(LDAP_BASE_DN)%'
+      bind_format: '%env(LDAP_USER_DN_STRING)%'
+      servers: '%env(LDAP_SERVERS)%'
+      use_tls: '%env(bool:LDAP_USE_TLS)%'
+      use_ssl: '%env(bool:LDAP_USE_SSL)%'
+      port: '%env(int:LDAP_PORT)%'
+      ldap_type: '%env(LDAP_TYPE)%'
+  security:
+    roles:
+      ROLE_ADMIN: ['%env(LDAP_ADMIN_GROUP)%']
+      ROLE_MANAGER: ['%env(LDAP_MANAGER_GROUP)%']
+    additional_attributes:
+      - displayName
+      - mail
+      - thumbnailPhoto
+    guard:
+      login_path: '/api/login'
+      username_parameter: username
+      password_parameter: password

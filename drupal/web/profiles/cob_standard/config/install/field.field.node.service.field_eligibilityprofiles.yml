@@ -1,0 +1,44 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eligibilityprofiles
+    - node.type.service
+    - paragraphs.paragraphs_type.eligibility_profile
+  module:
+    - entity_reference_revisions
+id: node.service.field_eligibilityprofiles
+field_name: field_eligibilityprofiles
+entity_type: node
+bundle: service
+label: 'Who is eligible?'
+description: 'Fields left blank will not appear in the detail page'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      eligibility_profile: eligibility_profile
+    target_bundles_drag_drop:
+      eligibility_profile:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

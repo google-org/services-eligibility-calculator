@@ -1,0 +1,811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list services view 1`] = `
+<div>
+  <nav
+    class="service-header navbar navbar-expand navbar-light"
+  >
+    <div
+      class="w-100"
+    >
+      <h1
+        class="list float-left"
+      >
+        Manage city services
+      </h1>
+      <div
+        class="input-group search float-right"
+      >
+        <div
+          class="input-group-prepend"
+        >
+          <label
+            for="search-input"
+          >
+            <span
+              aria-hidden="true"
+              class="input-group-text"
+            >
+              <i
+                class="material-icons"
+              >
+                search
+              </i>
+            </span>
+          </label>
+        </div>
+        <input
+          aria-label="Search"
+          class="form-control"
+          id="search-input"
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+    </div>
+  </nav>
+  <h2
+    class="list float-left"
+  >
+    Your
+     draft services (
+    2
+    )
+  </h2>
+  <div
+    class="float-right"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <a
+          class="btn btn-primary pull-right"
+          href="/servicedrafts/create"
+          role="button"
+        >
+          Add service
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mb-5"
+  >
+    <div
+      class="row service-draft-row my-2"
+    >
+      <div
+        class="col-6 my-auto service-draft-name"
+      >
+        <span>
+          A New Draft
+        </span>
+      </div>
+      
+      <div
+        class="col my-auto"
+      >
+        <a
+          class="btn btn-blue-text pull-right"
+          href="/servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8x"
+          role="button"
+        >
+          Manage
+        </a>
+      </div>
+    </div>
+    <div
+      class="row service-draft-row my-2"
+    >
+      <div
+        class="col-6 my-auto service-draft-name"
+      >
+        <span>
+          Draft for New Service
+        </span>
+      </div>
+      <div
+        class="col my-auto"
+      >
+        <div
+          class="row draft-last-updated"
+        >
+          Last updated 
+          20 days ago
+           by 
+          <span>
+            You
+          </span>
+        </div>
+      </div>
+      <div
+        class="col my-auto"
+      >
+        <a
+          class="btn btn-blue-text pull-right"
+          href="/servicedrafts/show/L2FwaS9zZXJ2aWNlX2RyYWZ0cy8y"
+          role="button"
+        >
+          Manage
+        </a>
+      </div>
+    </div>
+  </div>
+  <h2
+    class="list"
+  >
+    All published services
+     (
+    19
+    )
+  </h2>
+  <table
+    class="table table-fixed"
+  >
+    <thead>
+      <tr>
+        <th
+          style="cursor: pointer; width: 30%;"
+        >
+          name
+          <i
+            class="material-icons"
+          >
+            arrow_downward
+          </i>
+        </th>
+        <th
+          style="cursor: pointer; width: 20%;"
+        >
+          department
+        </th>
+        <th
+          style="cursor: pointer; width: 20%;"
+        >
+          last modified by
+        </th>
+        <th
+          style="cursor: pointer; width: 15%;"
+        >
+          last modified
+        </th>
+        <th
+          style="width: 15%;"
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span>
+            Accusantium aperiam consequatur.
+          </span>
+        </td>
+        <td>
+          <span>
+            Housing and Human Services
+          </span>
+        </td>
+        <td>
+          <span>
+            Mrs. Raphaelle Schumm DVM
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8w"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            At consequatur doloribus voluptatem voluptatem.
+          </span>
+        </td>
+        <td>
+          <span>
+            Fire
+          </span>
+        </td>
+        <td>
+          <span>
+            Alexandrea Mayer
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8x"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            At corporis facilis inventore vero animi.
+          </span>
+        </td>
+        <td>
+          <span>
+            Police
+          </span>
+        </td>
+        <td>
+          <span>
+            Domenico Kris
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8y"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Aut quibusdam labore sit.
+          </span>
+        </td>
+        <td>
+          <span>
+            Planning
+          </span>
+        </td>
+        <td>
+          <span>
+            Bernie Lockman
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8z"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Corrupti cum ratione animi.
+          </span>
+        </td>
+        <td>
+          <span>
+            OSMP
+          </span>
+        </td>
+        <td>
+          <span>
+            Beaulah Schuster
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy80"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Dolores ut natus et.
+          </span>
+        </td>
+        <td>
+          <span>
+            Innovation and Technology
+          </span>
+        </td>
+        <td>
+          <span>
+            Sigurd Bergnaum
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy81"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Et omnis eaque pariatur non.
+          </span>
+        </td>
+        <td>
+          <span>
+            City Attorney
+          </span>
+        </td>
+        <td>
+          <span>
+            Barry Schneider Sr.
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy82"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Et quam ut voluptatem qui.
+          </span>
+        </td>
+        <td>
+          <span>
+            Planning
+          </span>
+        </td>
+        <td>
+          <span>
+            Keyshawn Emmerich Jr.
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy83"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Eum porro est doloremque.
+          </span>
+        </td>
+        <td>
+          <span>
+            City Clerk's Office
+          </span>
+        </td>
+        <td>
+          <span>
+            Alyson Klocko
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy84"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Food Tax Rebate Program
+          </span>
+        </td>
+        <td>
+          <span>
+            Housing and Human Services
+          </span>
+        </td>
+        <td>
+          <span>
+            You
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy85"
+            role="button"
+          >
+            Manage
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Modi cumque amet.
+          </span>
+        </td>
+        <td>
+          <span>
+            City Manager's Office
+          </span>
+        </td>
+        <td>
+          <span>
+            Dr. Christopher McGlynn DVM
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xMA"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Officiis excepturi eligendi ducimus autem quo.
+          </span>
+        </td>
+        <td>
+          <span>
+            City Council
+          </span>
+        </td>
+        <td>
+          <span>
+            Cruz Carter DDS
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xMQ"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Perferendis sit veniam.
+          </span>
+        </td>
+        <td>
+          <span>
+            Public Works
+          </span>
+        </td>
+        <td>
+          <span>
+            Ignatius Schimmel
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xMg"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Provident non incidunt magnam molestias.
+          </span>
+        </td>
+        <td>
+          <span>
+            Housing and Human Services
+          </span>
+        </td>
+        <td>
+          <span>
+            Dandre Hilpert Jr.
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xMw"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Quidem optio occaecati.
+          </span>
+        </td>
+        <td>
+          <span>
+            Municipal Court
+          </span>
+        </td>
+        <td>
+          <span>
+            Charity Jacobson
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xNA"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Recusandae asperiores accusamus nihil repellat.
+          </span>
+        </td>
+        <td>
+          <span>
+            Innovation and Technology
+          </span>
+        </td>
+        <td>
+          <span>
+            Nicholas Berge
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xNQ"
+            role="button"
+          >
+            Manage
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Senior Center Fitness Discounts
+          </span>
+        </td>
+        <td>
+          <span>
+            Housing and Human Services
+          </span>
+        </td>
+        <td>
+          <span>
+            Jane Smith
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xNg"
+            role="button"
+          >
+            Manage
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Tempora aut eum et blanditiis.
+          </span>
+        </td>
+        <td>
+          <span>
+            OSMP
+          </span>
+        </td>
+        <td>
+          <span>
+            Dr. Reese Bahringer Jr.
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xNw"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>
+            Voluptas iusto animi consequatur.
+          </span>
+        </td>
+        <td>
+          <span>
+            OSMP
+          </span>
+        </td>
+        <td>
+          <span>
+            Adaline Wyman IV
+          </span>
+        </td>
+        <td>
+          20 days ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xOA"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2
+    class="list"
+  >
+    Archived services
+     (
+    1
+    )
+  </h2>
+  <table
+    class="table table-fixed"
+  >
+    <thead>
+      <tr>
+        <th
+          style="cursor: pointer; width: 30%;"
+        >
+          name
+          <i
+            class="material-icons"
+          >
+            arrow_downward
+          </i>
+        </th>
+        <th
+          style="cursor: pointer; width: 20%;"
+        >
+          department
+        </th>
+        <th
+          style="cursor: pointer; width: 20%;"
+        >
+          archived by
+        </th>
+        <th
+          style="cursor: pointer; width: 15%;"
+        >
+          archived
+        </th>
+        <th
+          style="width: 15%;"
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span>
+            Aut soluta in.
+          </span>
+        </td>
+        <td>
+          <span>
+            City Clerk's Office
+          </span>
+        </td>
+        <td>
+          <span>
+            Jane Doe
+          </span>
+        </td>
+        <td>
+          7 years ago
+        </td>
+        <td>
+          <a
+            class="btn btn-blue-text pull-right"
+            href="/show/L2FwaS9zZXJ2aWNlcy8xOQ"
+            role="button"
+          >
+            View
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+   
+</div>
+`;

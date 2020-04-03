@@ -1,0 +1,53 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+langcode: en
+status: true
+dependencies: {  }
+id: default_ldap_server
+label: 'Default LDAP'
+type: openldap
+address: www.zflexldap.com
+port: 389
+timeout: 10
+tls: false
+followrefs: null
+weight: null
+bind_method: service_account
+binddn: 'cn=ro_admin,ou=sysadmins,dc=zflexsoftware,dc=com'
+bindpw: zflexpass
+basedn: 'ou=users,ou=guests,dc=zflexsoftware,dc=com'
+user_attr: uid
+account_name_attr: uid
+mail_attr: mail
+mail_template: ''
+picture_attr: ''
+unique_persistent_attr: employeenumber
+unique_persistent_attr_binary: false
+user_dn_expression: 'uid=%username,%basedn'
+testing_drupal_username: guest1
+testing_drupal_user_dn: 'uid=guest1,ou=users,ou=guests,dc=zflexsoftware,dc=com'
+grp_unused: true
+grp_object_cat: ''
+grp_nested: false
+grp_user_memb_attr_exists: false
+grp_user_memb_attr: ''
+grp_memb_attr: ''
+grp_memb_attr_match_user_attr: ''
+grp_derive_from_dn: '0'
+grp_derive_from_dn_attr: ''
+grp_test_grp_dn: ''
+grp_test_grp_dn_writeable: ''
+search_pagination: false
+search_page_size: null

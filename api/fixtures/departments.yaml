@@ -1,0 +1,57 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\Department:
+  department1:
+    name: "Housing and Human Services"
+  department2:
+    name: "City Clerk's Office"
+  department3:
+    name: "City Council"
+  department4:
+    name: "City Manager's Office"
+  department5:
+    name: "Climate Initiatives"
+  department6:
+    name: "Communication"
+  department7:
+    name: "Planning"
+  department8:
+    name: "Community Vitality"
+  department9:
+    name: "Energy Strategy"
+  department10:
+    name: "Finance"
+  department11:
+    name: "Fire"
+  department12:
+    name: "City Attorney"
+  department13:
+    name: "Human Resources"
+  department14:
+    name: "Innovation and Technology"
+  department15:
+    name: "Library and Arts"
+  department16:
+    name: "Municipal Court"
+  department17:
+    name: "OSMP"
+  department18:
+    name: "Parks and Recreation"
+  department19:
+    name: "Police"
+  department20:
+    name: "Public Works"
+  department21:
+    name: "Other"

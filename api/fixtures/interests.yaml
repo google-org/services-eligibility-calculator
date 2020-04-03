@@ -1,0 +1,39 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\Interest:
+  interest1:
+    name: "Childcare"
+    materialIcon: "child_friendly"
+  interest2:
+    name: "Energy"
+    materialIcon: "nature_people"
+  interest3:
+    name: "Food"
+    materialIcon: "fastfood"
+  interest4:
+    name: "Housing"
+    materialIcon: "home"
+  interest5:
+    name: "Mediation"
+    materialIcon: "forum"
+  interest6:
+    name: "Older adults"
+    materialIcon: "person_outline"
+  interest7:
+    name: "Animals"
+    materialIcon: "pets"
+  interest8:
+    name: "Wellness"
+    materialIcon: "directions_run"

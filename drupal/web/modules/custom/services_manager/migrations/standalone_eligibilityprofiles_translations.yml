@@ -1,0 +1,36 @@
+migration_group: services_standalone
+id: eligibilityprofiles_translations
+label: 'Standalone Eligibility Profiles Translations'
+source:
+  # The @MigrateSource ID of the src/Plugin/migrate/source plugin.
+  plugin: eligibilityprofiles_translations
+  # The source database connection defined in settings.php or settings.local.php
+  key: migrate
+  track_changes: true
+process:
+  # Attach the translation to the already-migrated node.
+  id:
+    plugin: migration_lookup
+    source: foreign_key
+    migration: eligibilityprofiles
+  # Field mappings (destination: source).
+  langcode: locale
+  field_other/value: other
+  field_other/format:
+    plugin: default_value
+    default_value: "basic_html"
+  field_fees: fees
+destination:
+  # Import into 'eligibility_profile' Paragraphs type.
+  plugin: 'paragraphs_translations'
+  default_bundle: eligibility_profile
+  # Create translations for existing nodes.
+  translations: true
+
+dependencies:
+  required:
+    - eligibilityprofiles
+  enforced:
+    module:
+      - services_manager
+      - content_translation

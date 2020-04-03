@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders create an interest modal 1`] = `
+<div
+  aria-modal="true"
+  class="fade modal show"
+  role="dialog"
+  style="display: block;"
+  tabindex="-1"
+>
+  <div
+    class="modal-dialog modal-xl"
+    role="document"
+  >
+    <div
+      class="modal-content"
+    >
+      <div
+        class="modal-body"
+      >
+        <div
+          class="container header"
+        >
+          <h1>
+            New Interest
+          </h1>
+        </div>
+        <form>
+          <div
+            class="form-group"
+          >
+            <label
+              class="form-control-label"
+              for="interest_name-en"
+              id="interest_name-en_label"
+            >
+              name (English)
+            </label>
+            <input
+              class="form-control"
+              id="interest_name-en"
+              name="name-en"
+              placeholder="The interest name in English."
+              required=""
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="form-control-label"
+              for="interest_name-es"
+              id="interest_name-es_label"
+            >
+              name (Spanish)
+            </label>
+            <input
+              class="form-control"
+              id="interest_name-es"
+              name="name-es"
+              placeholder="The interest name in Spanish."
+              required=""
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="form-control-label"
+              for="interest_materialIcon"
+              id="interest_materialIcon_label"
+            >
+              materialIcon
+            </label>
+            <div
+              aria-autocomplete="list"
+              aria-busy="true"
+              aria-disabled="false"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-labelledby="interest_materialIcon_label"
+              aria-live="polite"
+              aria-owns="interest_materialIcon_listbox"
+              aria-readonly="false"
+              class="rw-dropdown-list rw-widget"
+              id="interest_materialIcon_input"
+              role="combobox"
+              tabindex="0"
+            >
+              <div
+                class="form-control rw-widget-input rw-widget-picker rw-widget-container"
+              >
+                <div
+                  class="rw-input rw-dropdown-list-input"
+                >
+                  <input
+                    class="rw-dropdown-list-autofill rw-detect-autofill rw-sr"
+                    name="materialIcon"
+                    tabindex="-1"
+                    value=""
+                  />
+                  <span
+                    class="rw-placeholder"
+                  >
+                    loading icons...
+                  </span>
+                </div>
+                <span
+                  class="rw-select"
+                >
+                  <button
+                    aria-disabled="false"
+                    aria-hidden="true"
+                    aria-label="open dropdown"
+                    class="rw-btn rw-btn-select"
+                    role="presentational"
+                    tabindex="-1"
+                    title="open dropdown"
+                    type="button"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="rw-i rw-loading"
+                    />
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            class="float-right"
+          >
+            <button
+              class="btn btn-blue-text"
+            >
+              Cancel
+            </button>
+            <button
+              class="btn btn-blue-text"
+              type="submit"
+            >
+              Save
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

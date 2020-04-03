@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders user activity settings view 1`] = `
+<div>
+  <nav
+    class="service-header navbar navbar-expand navbar-light sticky-top"
+  >
+    <div
+      class="w-100"
+    >
+      <h1
+        class="float-left"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root material-icons arrow-back"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            arrow_back
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        Settings
+      </h1>
+    </div>
+  </nav>
+  <div
+    class="settings-tabs d-flex"
+  >
+    <span
+      class="tab col-2"
+    >
+      <a
+        href="/settings/manage"
+      >
+        Service management
+      </a>
+      <div
+        class="tab-border"
+      />
+    </span>
+    <span
+      class="tab col-2"
+    >
+      <a
+        href="/settings/service-activity"
+      >
+        Service activity
+      </a>
+      <div
+        class="tab-border"
+      />
+    </span>
+    <span
+      class="tab col-2 active"
+    >
+      <a
+        href="/settings/user-activity"
+      >
+        User activity
+      </a>
+      <div
+        class="tab-border"
+      />
+    </span>
+  </div>
+  <table
+    class="table table-fixed"
+  >
+    <thead>
+      <tr>
+        <th
+          style="cursor: pointer; width: 40%;"
+        >
+          name
+          <i
+            class="material-icons"
+          >
+            arrow_downward
+          </i>
+        </th>
+        <th
+          style="cursor: pointer; width: 12%;"
+        >
+          logins
+        </th>
+        <th
+          style="cursor: pointer; width: 12%;"
+        >
+          last logged in
+        </th>
+        <th
+          style="cursor: pointer; width: 12%;"
+        >
+          edited
+        </th>
+        <th
+          style="cursor: pointer; width: 12%;"
+        >
+          published
+        </th>
+        <th
+          style="cursor: pointer; width: 12%;"
+        >
+          archived
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          admin
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          Feb 27, 2020
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+      </tr>
+      <tr>
+        <td>
+          guest1
+        </td>
+        <td>
+          0
+        </td>
+        <td />
+        <td>
+          1
+        </td>
+        <td>
+          0
+        </td>
+        <td>
+          0
+        </td>
+      </tr>
+      <tr>
+        <td>
+          user
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          Feb 27, 2020
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          0
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

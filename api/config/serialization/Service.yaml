@@ -1,0 +1,75 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+App\Entity\Service:
+  attributes:
+    name:
+      groups: ["service:read", "service:write"]
+    description:
+      groups: ["service:read", "service:write"]
+    details:
+      groups: ["service:read", "service:write"]
+    alwaysAcceptApplications:
+      groups: ["service:read", "service:write"]
+    department:
+      groups: ["service:read", "service:write"]
+    applicationWindowStart:
+      groups: ["service:read", "service:write"]
+    applicationWindowEnd:
+      groups: ["service:read", "service:write"]
+    interests:
+      groups: ["service:read", "service:write"]
+    eligibilityProfiles:
+      groups: ["service:read", "service:write"]
+    applicationAddress:
+      groups: ["service:read", "service:write"]
+    applicationHours:
+      groups: ["service:read", "service:write"]
+    applicationPhone:
+      groups: ["service:read", "service:write"]
+    applicationPhoneOther:
+      groups: ["service:read", "service:write"]
+    contactEmail:
+      groups: ["service:read", "service:write"]
+    applicationOnline:
+      groups: ["service:read", "service:write"]
+    applicationWebAddresses:
+      groups: ["service:read", "service:write"]
+    applicationDocuments:
+      groups: ["service:read", "service:write"]
+    lastModifiedDateTime:
+      groups: ["service:authenticated_read"]
+    lastModifiedBy:
+      groups: ["service:authenticated_read"]
+    lastModifiedByDisplayName:
+      groups: ["service:authenticated_read"]
+    lastModifiedAgo:
+      groups: ["service:authenticated_read"]
+    numEdits:
+      groups:
+        ["service:authenticated_read", "service:write", "service_draft:read"]
+    draft:
+      groups: ["service:authenticated_read"]
+    history:
+      groups: ["service:authenticated_read", "service_draft:read"]
+    archivedDateTime:
+      groups: ["service:authenticated_read"]
+    archivedAgo:
+      groups: ["service:authenticated_read"]
+    archivedBy:
+      groups: ["service:authenticated_read"]
+    archivedByDisplayName:
+      groups: ["service:authenticated_read"]
+    shares:
+      groups: ["service:authenticated_read", "service_draft:read"]

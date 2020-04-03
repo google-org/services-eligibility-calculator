@@ -1,0 +1,109 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+migration_group: services_standalone
+id: services_translations
+label: 'Standalone Services Translations'
+source:
+  # The @MigrateSource ID of the src/Plugin/migrate/source plugin.
+  plugin: services_translations
+  # The source database connection defined in settings.php or settings.local.php
+  key: migrate
+  track_changes: true
+process:
+  # Attach the translation to the already-migrated node.
+  nid:
+      plugin: migration_lookup
+      source: foreign_key
+      migration: services
+  # Field mappings (destination: source).
+  field_applicationaddress:
+      plugin: services_translation_fallback
+      source: application_address
+      migration: services
+      migration_source: foreign_key
+  field_applicationdocuments/value:
+      plugin: services_translation_fallback
+      source: application_documents
+      migration: services
+      migration_source: foreign_key
+  field_applicationdocuments/format:
+    plugin: default_value
+    default_value: "basic_html"
+  field_applicationhours:
+      plugin: services_translation_fallback
+      source: application_hours
+      migration: services
+      migration_source: foreign_key
+  field_applicationonline:
+      plugin: services_translation_fallback
+      source: application_online
+      migration: services
+      migration_source: foreign_key
+  field_applicationphone:
+      plugin: services_translation_fallback
+      source: application_phone
+      migration: services
+      migration_source: foreign_key
+  field_applicationphoneother:
+      plugin: services_translation_fallback
+      source: application_phone_other
+      migration: services
+      migration_source: foreign_key
+  field_applicationwebaddresses:
+      plugin: services_translation_fallback
+      source: application_web_addresses
+      migration: services
+      migration_source: foreign_key
+  field_contact:
+      plugin: services_translation_fallback
+      source: contact_email
+      migration: services
+      migration_source: foreign_key
+  field_description/value:
+      plugin: services_translation_fallback
+      source: description
+      migration: services
+      migration_source: foreign_key
+  field_description/format:
+    plugin: default_value
+    default_value: "basic_html"
+  field_details/value:
+      plugin: services_translation_fallback
+      source: details
+      migration: services
+      migration_source: foreign_key
+  field_details/format:
+    plugin: default_value
+    default_value: "basic_html"
+  title: name
+  langcode: locale
+  # uid: # If the uid isn't provided, it appears to default to the uid of the
+         # base service, which is probably good enough since the standalone app
+         # doesn't track 'last_modified_by' separately for translations.
+destination:
+  # Import into nodes of content-type 'services'.
+  plugin: 'entity:node'
+  default_bundle: services
+  # Create translations for existing nodes.
+  translations: true
+
+migration_dependencies:
+  required:
+    - services
+dependencies:
+  enforced:
+    module:
+      - services_manager
+      - content_translation

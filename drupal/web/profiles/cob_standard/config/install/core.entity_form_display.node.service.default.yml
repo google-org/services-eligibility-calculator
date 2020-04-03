@@ -1,0 +1,306 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.service.field_acceptingapplications
+    - field.field.node.service.field_applicationaddress
+    - field.field.node.service.field_applicationdocuments
+    - field.field.node.service.field_applicationhours
+    - field.field.node.service.field_applicationonline
+    - field.field.node.service.field_applicationphone
+    - field.field.node.service.field_applicationphoneother
+    - field.field.node.service.field_applicationwebaddresses
+    - field.field.node.service.field_applicationwindowend
+    - field.field.node.service.field_applicationwindowstart
+    - field.field.node.service.field_contact
+    - field.field.node.service.field_department
+    - field.field.node.service.field_description
+    - field.field.node.service.field_details
+    - field.field.node.service.field_eligibilityprofiles
+    - field.field.node.service.field_interests
+    - node.type.service
+  module:
+    - datetime
+    - field_group
+    - paragraphs
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_overview:
+      children:
+        - title
+        - field_description
+      parent_name: ''
+      weight: 8
+      format_type: fieldset
+      region: content
+      format_settings:
+        description: 'Fields left blank will not appear in the detail page'
+        id: ''
+        classes: ''
+        required_fields: false
+      label: Overview
+    group_what_is_the_service:
+      children:
+        - field_details
+        - field_department
+        - field_applicationwindowstart
+        - field_applicationwindowend
+        - field_acceptingapplications
+        - field_interests
+      parent_name: ''
+      weight: 9
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: false
+      label: 'What is the service?'
+    group_how_do_i_apply:
+      children:
+        - field_applicationonline
+        - field_applicationdocuments
+        - field_applicationphone
+        - field_applicationphoneother
+        - field_contact
+        - field_applicationwebaddresses
+        - field_applicationaddress
+        - field_applicationhours
+      parent_name: ''
+      weight: 12
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: false
+      label: 'How do I apply?'
+    group_eligibility_profiles:
+      children:
+        - field_eligibilityprofiles
+      parent_name: ''
+      weight: 10
+      format_type: html_element
+      region: content
+      format_settings:
+        element: fieldset
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: 'js-form-item form-item js-form-wrapper form-wrapper'
+        required_fields: false
+      label: 'Eligibility profiles'
+id: node.service.default
+targetEntityType: node
+bundle: service
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_acceptingapplications:
+    weight: 14
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_applicationaddress:
+    weight: 18
+    settings:
+      size: 100
+      placeholder: 'Address, such as 2930 Pearl St, Boulder, CO 80301'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_applicationdocuments:
+    weight: 13
+    settings:
+      size: 100
+      placeholder: 'Documentation needed in addition to application, such as proof of income'
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_applicationhours:
+    weight: 19
+    settings:
+      size: 100
+      placeholder: 'Walk-in/appointment hours if applicable'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_applicationonline:
+    weight: 12
+    settings:
+      size: 100
+      placeholder: '"Learn more" button links to this web address, such as mycity.gov'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_applicationphone:
+    weight: 14
+    settings:
+      size: 50
+      placeholder: 'Phone number, such as 303-441-3388'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_applicationphoneother:
+    weight: 15
+    settings:
+      size: 50
+      placeholder: 'Other details, such as extension'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_applicationwebaddresses:
+    weight: 17
+    settings:
+      size: 100
+      placeholder: 'Web address, such as mycity.gov'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_applicationwindowend:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_applicationwindowstart:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_contact:
+    weight: 16
+    settings:
+      size: 100
+      placeholder: 'Email, such as applications@mycity.gov'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_department:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_description:
+    weight: 4
+    settings:
+      size: 100
+      placeholder: 'Provides residents with an initial understanding of the offering'
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_details:
+    weight: 10
+    settings:
+      size: 100
+      placeholder: 'Additional details about this service and its application process'
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_eligibilityprofiles:
+    type: entity_reference_paragraphs
+    weight: 11
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_interests:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  langcode:
+    type: language_select
+    weight: 0
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 100
+      placeholder: 'Enter service name'
+    third_party_settings: {  }
+  translation:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }
