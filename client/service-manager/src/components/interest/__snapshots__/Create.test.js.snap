@@ -75,7 +75,6 @@ exports[`renders create an interest modal 1`] = `
               materialIcon
             </label>
             <div
-              aria-autocomplete="list"
               aria-busy="true"
               aria-disabled="false"
               aria-expanded="false"
