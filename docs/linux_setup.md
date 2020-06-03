@@ -139,8 +139,8 @@ GRANT ALL PRIVILEGES ON *.* TO 'services_rw'@'localhost';
 Create the database and schema for the user:
 
 ```
-bin/console doctrine:database:create
-bin/console doctrine:schema:create
+php bin/console doctrine:database:create
+php bin/console doctrine:schema:create
 ```
 
 Minimize the privileges for the user to just the services database:
@@ -153,7 +153,7 @@ GRANT ALL PRIVILEGES ON services.* TO 'services_rw'@'localhost';
 Start a local server for testing:
 
 ```
-bin/console server:start
+php bin/console server:start
 ```
 
 You can now view/use the API at [http://localhost:8000/api](http://localhost:8000/api)
@@ -161,7 +161,7 @@ You can now view/use the API at [http://localhost:8000/api](http://localhost:800
 Stop the local server:
 
 ```
-bin/console server:stop
+php bin/console server:stop
 ```
 
 ## Setting Timezone to UTC
