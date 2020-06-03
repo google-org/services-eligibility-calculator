@@ -123,6 +123,9 @@ sudo apt-get install composer
 # Install all dependencies
 cd api
 composer install
+
+# Ensure bin/console can be executed
+chmod +x bin/console
 ```
 
 ## Configuring your Local Database
