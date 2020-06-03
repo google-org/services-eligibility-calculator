@@ -123,6 +123,9 @@ sudo apt-get install composer
 # Install all dependencies
 cd api
 composer install
+
+# Ensure bin/console can be executed
+chmod +x bin/console
 ```
 
 ## Configuring your Local Database
@@ -139,8 +142,8 @@ GRANT ALL PRIVILEGES ON *.* TO 'services_rw'@'localhost';
 Create the database and schema for the user:
 
 ```
-php bin/console doctrine:database:create
-php bin/console doctrine:schema:create
+bin/console doctrine:database:create
+bin/console doctrine:schema:create
 ```
 
 Minimize the privileges for the user to just the services database:
@@ -153,7 +156,7 @@ GRANT ALL PRIVILEGES ON services.* TO 'services_rw'@'localhost';
 Start a local server for testing:
 
 ```
-php bin/console server:start
+bin/console server:start
 ```
 
 You can now view/use the API at [http://localhost:8000/api](http://localhost:8000/api)
@@ -161,7 +164,7 @@ You can now view/use the API at [http://localhost:8000/api](http://localhost:800
 Stop the local server:
 
 ```
-php bin/console server:stop
+bin/console server:stop
 ```
 
 ## Setting Timezone to UTC
