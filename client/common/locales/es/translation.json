@@ -30,12 +30,12 @@
   },
   "filterAddress": {
     "buttonAdd": "Agregar dirección",
-    "buttonCity": "Ciudad",
-    "buttonNotCity": "No ciudad",
+    "buttonCity": "Nueva York",
+    "buttonNotCity": "No Nueva York",
     "modalTitle": "Dirección",
-    "modalDescription": "Para acceder a la mayoría de estos servicios, se requiere que la dirección se encuentre en la ciudad",
-    "resident": "Residente de la ciudad",
-    "notResident": "No residente de la ciudad",
+    "modalDescription": "Para acceder a la mayoría de estos servicios, se requiere que la dirección se encuentre en el estado",
+    "resident": "Residente del estado",
+    "notResident": "No residente del estado",
     "unsureLinkText": "No estoy seguro, ayúdame a comprobar"
   },
   "filterModal": {
@@ -43,11 +43,11 @@
     "applyButton": "Aplicar"
   },
   "serviceList": {
-    "pageTitle": "Servicios para mí",
-    "title": "Servicios para mí",
+    "pageTitle": "Nueva York para mí",
+    "title": "Nueva York para mí",
     "translateButton": "In English",
     "clearSelectionsButton": "Borrar selecciones",
-    "allWithCount": "Todos los servicios de la ciudad ({{count}})",
+    "allWithCount": "Todos los servicios del estado ({{count}})",
     "recommendedWithCount": "Servicios recomendados ({{count}})",
     "otherWithCount": "Otros servicios ({{count}})",
     "searchPlaceholder": "Buscar",
@@ -57,7 +57,7 @@
     "infoPreText": "Este es solo un ejemplo. Consulta",
     "linkToCityWebsiteInfoBoxText": "el sitio web",
     "infoPostText": "para conocer muchos otros servicios.",
-    "linkToCityWebsiteText": "Ciudad",
+    "linkToCityWebsiteText": "Estado de Nueva York",
     "shareFeedback": "Comparte tus comentarios"
   },
   "serviceDetails": {
@@ -100,7 +100,7 @@
       "maxIncome": "Ingreso máximo de USD {{income}}",
       "householdSize": "grupo familiar de {{householdSize}}",
       "maxIncomeModalTitle": "Ingreso máximo por tamaño de familia",
-      "livesInMunicipality": "Debe vivir en cuidad",
+      "livesInMunicipality": "Debe vivir en el estado de Nueva York",
       "proofOfResidencyRequired": "Se requiere constancia de residencia legal en EE.UU.",
       "allAges": "Todas las edades",
       "allIncomes": "Todos los ingresos",
@@ -121,7 +121,7 @@
       "ageOfApplicant": "Edad del solicitante",
       "eligibilityAgeMax": "Elegibilidad Edad Máxima",
       "eligibilityAgeMin": "Elegibilidad Edad Mínima",
-      "cityResident": "Residente de la ciudad",
+      "cityResident": "Residente del estado",
       "legalUSResidency": "Prueba de residencia legal en los EE. UU."
     },
     "overviewCard": {

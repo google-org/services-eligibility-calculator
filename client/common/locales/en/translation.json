@@ -30,12 +30,12 @@
   },
   "filterAddress": {
     "buttonAdd": "Add address",
-    "buttonCity": "In City",
-    "buttonNotCity": "Not in City",
+    "buttonCity": "In New York State",
+    "buttonNotCity": "Not in New York State",
     "modalTitle": "Address",
-    "modalDescription": "A city address is required for most services",
-    "resident": "Resident of City",
-    "notResident": "Not a resident of City",
+    "modalDescription": "A state address is required for most services",
+    "resident": "Resident of New York State",
+    "notResident": "Not a resident of New York State",
     "unsureLink": "https://maps.google.com/",
     "unsureLinkText": "I'm not sure, help me check"
   },
@@ -44,11 +44,11 @@
     "applyButton": "Apply"
   },
   "serviceList": {
-    "pageTitle": "Services for Me",
-    "title": "Services for me",
+    "pageTitle": "New York for Me",
+    "title": "New York for me",
     "translateButton": "En español",
     "clearSelectionsButton": "Clear selections",
-    "allWithCount": "All city services ({{count}})",
+    "allWithCount": "All state services ({{count}})",
     "recommendedWithCount": "Recommended services ({{count}})",
     "otherWithCount": "Other services ({{count}})",
     "searchPlaceholder": "Search",
@@ -56,11 +56,11 @@
     "clearSelectionsDescription": "Clear selections to see more services",
     "selectService": "Select a service to view details",
     "infoPreText": "These are only a sample, check out",
-    "linkToCityWebsiteInfoBox": "https://www.google.com",
-    "linkToCityWebsiteInfoBoxText": "City website",
+    "linkToCityWebsiteInfoBox": "https://www.ny.gov",
+    "linkToCityWebsiteInfoBoxText": "New York State website",
     "infoPostText": "for many other services.",
-    "linkToCityWebsiteText": "City of ABC",
-    "linkToCityWebsite": "https://www.google.com/",
+    "linkToCityWebsiteText": "State of New York",
+    "linkToCityWebsite": "https://www.ny.gov",
     "shareFeedback": "Share your feedback",
     "shareFeedbackLink": "https://www.google.com"
   },
@@ -91,7 +91,7 @@
         "documentsNeeded": "Documentation needed in addition to application, such as proof of income",
         "phoneNumber": "Phone number, such as 123-456-7890",
         "phoneOther": "Other details, such as extension",
-        "email": "Email, such as applications@mycity.gov",
+        "email": "Email, such as applications@ny.gov",
         "address": "Address",
         "applicationHours": "Walk-in/appointment hours if applicable"
       }
@@ -116,7 +116,7 @@
       "maxIncome": "${{income}} max income",
       "householdSize": "household of {{householdSize}}",
       "maxIncomeModalTitle": "Max income by household size",
-      "livesInMunicipality": "Lives in City",
+      "livesInMunicipality": "Lives in New York State",
       "proofOfResidencyRequired": "Proof of US legal residency required",
       "allAges": "All ages",
       "allIncomes": "All incomes",
@@ -137,7 +137,7 @@
       "ageOfApplicant": "Age of applicant",
       "eligibilityAgeMax": "Eligibility Age Max",
       "eligibilityAgeMin": "Eligibility Age Min",
-      "cityResident": "City resident",
+      "cityResident": "New York State resident",
       "legalUSResidency": "Proof of US legal residency"
     },
     "overviewCard": {
