@@ -28,7 +28,7 @@
     "react-router-dom": "^5.1.2",
     "react-sanitized-html": "^2.0.0",
     "react-scripts": "3.4.1",
-    "sanitize-html": "^1.21.1"
+    "sanitize-html": "^2.3.2"
   },
   "devDependencies": {
     "@testing-library/react": "^9.4.0",
