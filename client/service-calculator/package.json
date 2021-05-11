@@ -13,7 +13,7 @@
     "i18next": "^19.3.2",
     "i18next-browser-languagedetector": "^4.0.2",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "prop-types": "^15.7.2",
     "query-string": "^6.11.1",
     "react": "^16.12.0",
