@@ -32,7 +32,7 @@
     "react-number-format": "^4.3.1",
     "react-router-dom": "^5.1.2",
     "react-sanitized-html": "^2.0.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-textarea-autosize": "^7.1.2",
     "react-widgets": "^4.4.11",
     "sanitize-html": "^1.21.1"
