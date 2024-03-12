@@ -35,7 +35,7 @@
     "react-scripts": "3.4.1",
     "react-textarea-autosize": "^7.1.2",
     "react-widgets": "^4.4.11",
-    "sanitize-html": "^1.21.1"
+    "sanitize-html": "^2.12.1"
   },
   "devDependencies": {
     "chalk": "^2.4.2",
