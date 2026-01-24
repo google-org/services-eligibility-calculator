@@ -13,7 +13,7 @@
     "i18next": "^19.3.2",
     "i18next-browser-languagedetector": "^4.0.2",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "prop-types": "^15.7.2",
     "query-string": "^6.11.1",
     "react": "^16.12.0",
@@ -27,7 +27,7 @@
     "react-i18next": "^11.3.3",
     "react-router-dom": "^5.1.2",
     "react-sanitized-html": "^2.0.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "sanitize-html": "^1.21.1"
   },
   "devDependencies": {
